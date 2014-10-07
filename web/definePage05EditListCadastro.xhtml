@@ -1,0 +1,95 @@
+<ui:composition template="/baseTemplate.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                xmlns:p="http://primefaces.org/ui">
+
+
+    <!--TEMPLATE-PADRAO-CONFORME-DOCUMENTADO-NA-PAGINA definePage02Home.xhtml -->
+
+    <ui:define name="top">
+        <ui:include src="includePage1Top01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="menu">
+        <ui:include src="includePage2Menu08.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="nav">
+        <ui:include src="includePage3Nav01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="lateralEsquerda">
+        <ui:include src="includePage4LateralEsquerda01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="content">
+        <div id="contentInterno">
+            <div id="OrganizaConteudo">
+
+                <h:form id="formID06">
+
+                    <h:commandLink action="#{loginAdminController.editarFoto()}"
+                                   value="fotoEdit" />
+
+                    <p:growl id="messages" showDetail="true" />
+                    <p:dataTable id="multiart" var="art"
+                                 value="#{loginAdminController.userModel}" paginator="true"
+                                 rows="10" selection="#{loginAdminController.selectedUser}">
+
+                        <f:facet name="header">  
+                            Profiles:
+                        </f:facet>
+
+                        <p:column selectionMode="single" style="width:2%" />
+
+                        <p:column headerText="Id" style="width:5%">  
+                            #{art.idScientist}  
+                        </p:column>
+                        <p:column headerText="CPF" style="width:25%">  
+                            #{art.CPFScientist}  
+                        </p:column>
+
+                        <p:column headerText="Name" style="width:25%">  
+                            #{art.nameScientist}  
+                        </p:column>
+
+                        <p:column headerText="Institution" style="width:25%">  
+                            #{art.institutionScientist}  
+                        </p:column>
+                        <f:facet name="footer">
+                            <h:commandButton
+                                style="position:relative; text-alingn: left; font-size: 12px;"
+                                type="submit" id="edit" value="Edit User" 
+                                action="#{loginAdminController.editUsuario}" />
+
+                            <h:commandButton
+                                style="position:relative; text-alingn: left; font-size: 12px;"
+                                id="del" value="Del User" 
+                                actionListener="#{loginAdminController.delUsuario}"
+                                />
+                        </f:facet>
+                    </p:dataTable>
+                </h:form>
+            </div>
+        </div>
+    </ui:define>
+
+
+    <ui:define name="lateralDireita">
+        <ui:include src="includePage5LateralDireita01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="rodape">
+        <ui:include src="includePage6Rodape01.xhtml" />
+    </ui:define>
+
+
+</ui:composition>

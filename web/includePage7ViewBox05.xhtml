@@ -1,0 +1,121 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui">
+
+
+    <!--PAGINA DE INCLUDE DO JSF CONTEUDO ESPECIFICO DE UMA AREA-->
+    <!--RODAPE-->
+
+    <br />
+
+    <p:separator id="customSepa8181818" style=" height:25px" />
+
+    <p:accordionPanel
+        activeIndex="#{central.artifactController.numAbaAberta}"
+        multiple="true">
+        <p:tab title="Previous Posts">
+
+            <p:dataList value="#{central.artifactController.listAnrafelSQL05}"
+                        var="r" style="position:  relative; font-size: 15px; width: 710px;">
+
+                <h:outputText style="font-size: 15px; color: #789bd5;"
+                              value=" #{r.nameScientist} " />
+
+                <h:outputText style="font-size: 15px;" value="(#{r.data} " />
+
+                <h:outputText style="font-size: 15px;" value=" #{r.hora}): " />
+
+                <h:outputText style="font-size: 15px;" value="#{r.message}" />
+                <br />
+                <br />
+            </p:dataList>
+
+        </p:tab>
+
+        <p:tab title="Response:">
+            <p:panelGrid columns="1" style="position: relative; width: 710px;">
+                <h:column>
+                    <p:inputTextarea rows="3" cols="66" value="" minQueryLength="4" />
+                </h:column>
+                <h:column>
+                    <h:commandButton style="font-size: 15px;" type="submit" id="adm1"
+                                     value="Save" action="#{artifactController.gravaNote()}">
+                        <f:param name="admin" value="admin" />
+                    </h:commandButton>
+                    <h:commandButton style="font-size: 15px;" type="submit" id="adm45"
+                                     value="Cancel" action="#{artifactController.buscaUserMSGCancel()}">
+                        <f:param name="admin" value="admin" />
+                    </h:commandButton>
+                </h:column>
+            </p:panelGrid>
+
+        </p:tab>
+        <p:tab title="Message About:">
+
+            <div id="pinelGrid ">
+                <h:dataTable
+                    style="position: relative; width: 710px; font-size: 15px;"
+                    value="#{central.artifactController.listAnrafelSQL02}" var="c">
+
+                    <h:column>
+                        <h:outputText style="color: #789bd5;" value="N° Rationale: " />
+                        <h:outputText value=" #{c.idRationale} " />
+                    </h:column>
+                    <h:column>
+                        <h:outputText style="color: #789bd5;" value="Activity: " />
+                        <h:outputText value=" #{c.description} " />
+                    </h:column>
+                    <h:column>
+                        <h:outputText style="color: #789bd5;" value="Product Name: " />
+                        <h:outputText value=" #{c.productName} " />
+                    </h:column>
+
+                </h:dataTable>
+                <h:dataTable
+                    style="position: relative; width: 710px;  font-size: 15px;"
+                    value="#{central.artifactController.listAnrafelSQL02}" var="c">
+
+                    <h:column>
+                        <h:outputText style="color: #789bd5;" value="Scientist Name: " />
+                        <h:outputText value="#{c.nameScientist} " />
+                    </h:column>
+                    <h:column>
+                        <h:outputText style="color: #789bd5;" value="Date: " />
+                        <h:outputText value="#{c.date}" />
+                    </h:column>
+                    <h:column>
+                        <h:outputText style="color: #789bd5;" value="Time: " />
+                        <h:outputText value=" #{c.time} " />
+                    </h:column>
+                </h:dataTable>
+            </div>
+            <p:separator id="customSepar11atorwer4" style=" height:10px" />
+            <h3>Used Artifacts</h3>
+            <p:separator id="customSepar4atttorwer4" style=" height:10px" />
+
+            <br />
+            <h:dataTable value="#{central.artifactController.listAnrafelSQL03}"
+                         var="d" style=" font-size: 15px;">
+
+                <h:column>
+                    <h:outputText style="color: #789bd5;" value="Name:" />
+                </h:column>
+                <h:column>
+                    <h:outputText value="#{d.name}" />
+                </h:column>
+                <h:column>
+                    <h:outputText style="color: #789bd5;" value="Type:" />
+                </h:column>
+                <h:column>
+                    <h:outputText value="#{d.type}" />
+                </h:column>
+
+            </h:dataTable>
+        </p:tab>
+    </p:accordionPanel>
+    <p:separator id="customSepar2atoreueje" style=" height:25px" />
+</ui:composition>
+
+

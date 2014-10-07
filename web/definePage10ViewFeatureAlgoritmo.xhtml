@@ -1,0 +1,100 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                xmlns:p="http://primefaces.org/ui">
+
+
+    <!--TEMPLATE-PADRAO-CONFORME-DOCUMENTADO-NA-PAGINA definePage02Home.xhtml -->
+
+
+    <h:form id="formID1109">
+        <div id="contentInterno">
+            <div id="OrganizaConteudoStarDevelop">
+
+
+
+                <div id="boxTree1">
+                    <p:growl id="formID17" showDetail="true" />
+                    <div id="butonPlace">
+                        <div id="butonPlaceCont">
+                            <h:outputText value="Name of product development: " />
+                            <h:outputText style="font-weight: bold; color: #789bd5;"
+                                          value="#{central.development.product_name}" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="boxSuperiorNameProduto">
+                    <div id="boxSuperiorContNameProduto">Selection Algorithms:</div>
+                </div>
+                <div id="boxSuperior">
+                    <div id="boxSuperiorCont">
+                        <p:dataTable var="car" style="font-size:12px;"
+                                     value="#{central.development.selectedArtifactZ}">
+                            <f:facet name="header">            				
+                                Selected Artifact
+                            </f:facet>
+                            <p:column headerText="ID:">
+                                <h:outputText value="#{car.idArtifact}" />
+                            </p:column>
+
+                            <p:column headerText="NAME:">
+                                <h:outputText value="#{car.name}" />
+                            </p:column>
+
+                            <p:column headerText="LOCAL:">
+                                <h:outputText value="#{car.local}" />
+                            </p:column>
+                        </p:dataTable>
+                    </div>
+                </div>
+
+
+                <div id="boxAlgorithm">
+                    <div id="boxAlgorithmCont">Select the screen below the
+                        algorithms that will compose each task in the workflow.</div>
+                </div>
+
+
+                <div id="boxAlgorithmII">
+                    <div id="boxAlgorithmContII">
+                        <div id="posialgoritms">
+                            <h:form id="yhgbvd6654">
+                                <h:panelGrid columns="5">
+                                    <h:outputText
+                                        value="#{central.development.selectedArtifactAlgorithm}" />
+                                    <h:outputText value=" " />
+
+                                    <p:selectOneMenu value="#{central.development.campoSelecONeMenuSelecionado}" effect="fade" converter="converterObjeto">
+                                        <f:selectItem itemLabel="Select One" itemValue="" />
+                                        <f:selectItems value="#{central.development.listAlgoritms}" var="it" itemLabel="#{it.nameAlgorithm}" itemValue="#{it.nameAlgorithm}" />
+                                    </p:selectOneMenu>
+
+                                    <h:outputText value=" " />
+
+                                    <h:commandButton style="font-size: 12px;" type="submit" id="develop"  onclick="statusDialog.show();"
+                                                     value="Next"	action="#{central.development.getSelectedKwqarray()}" />										
+
+                                </h:panelGrid>
+                            </h:form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </h:form>
+
+    <p:dialog modal="true" styleClass="tempoView" widgetVar="statusDialog"
+              draggable="false" closable="false">
+        Loading... <br />
+        <br />
+        <p:graphicImage value="resources/images/golfinho_pulando_no_arco.gif" width="100"
+                        height="100" />
+    </p:dialog>
+</ui:composition>
+
+

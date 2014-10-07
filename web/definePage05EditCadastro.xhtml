@@ -1,0 +1,154 @@
+<ui:composition template="/baseTemplate.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                xmlns:p="http://primefaces.org/ui">
+
+
+    <!--TEMPLATE-PADRAO-CONFORME-DOCUMENTADO-NA-PAGINA definePage02Home.xhtml -->
+
+    <ui:define name="top">
+        <ui:include src="includePage1Top01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="menu">
+        <ui:include src="includePage2Menu02.xhtml" />
+    </ui:define>
+
+
+
+    <ui:define name="nav">
+        <ui:include src="includePage3Nav01.xhtml" />
+    </ui:define>
+
+
+
+    <ui:define name="lateralEsquerda">
+        <ui:include src="includePage4LateralEsquerda01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="content">
+        <div id="contentInterno">
+            <div id="identificaCabecalho">
+                <h:outputText value="Edit Register of Members" />
+                <div id="avisoCabecalho">
+                    <h:outputText
+                        value="Change the information below for edit your registration in the application." />
+                </div>
+            </div>
+
+            <div id="OrganizaConteudo">
+
+                <h:form id="formID04">
+                    <p:panelGrid columns="1" styleClass="semBorda1">
+                        <p:panelGrid columns="2" styleClass="semBorda1">
+
+                            <p:column>
+                                <h:outputLabel for="nomeUsuario" value="Name of Scientist:" />
+                            </p:column>
+                            <p:column>
+                                <p:inputText id="nomeUsuario"
+                                             value="#{loginAdminController.nomeDoCientista}" required="true"
+                                             requiredMessage="Mandatory field isn't filled.">
+                                </p:inputText>
+                            </p:column>
+                            <p:column>
+                                <h:outputLabel for="usuario" value="User:" />
+                            </p:column>
+                            <p:column>
+                                <p:inputText id="nome"
+                                             value="#{loginAdminController.nomeDoUsuario}" required="true"
+                                             requiredMessage="Mandatory field isn't filled.">
+                                </p:inputText>
+                            </p:column>
+
+                            <p:column>
+                                <h:outputLabel for="password" value="Password:" />
+                            </p:column>
+                            <p:column>
+                                <p:password value="#{loginAdminController.senha1}" id="password"
+                                            required="true" label="senha"
+                                            requiredMessage="Mandatory field isn't filled." feedback="true"
+                                            match="password1">
+
+                                </p:password>
+                            </p:column>
+
+                            <p:column>
+                                <h:outputLabel for="password1" value="Confirm the password:" />
+                            </p:column>
+                            <p:column>
+                                <p:password value="#{loginAdminController.senha2}"
+                                            id="password1" required="true" label="confirma senha"
+                                            requiredMessage="Mandatory field isn't filled."
+                                            feedback="false">
+
+                                </p:password>
+                            </p:column>
+
+                            <p:column>
+                                <h:outputLabel for="cpf" value="CPF:" />
+                            </p:column>
+
+                            <p:column>
+                                <p:inputText id="cpf" value="#{loginAdminController.cpf}"
+                                             required="true" requiredMessage="Mandatory field isn't filled.">
+                                </p:inputText>
+                            </p:column>
+                            <p:column>
+
+                                <h:outputLabel for="email" value="Email:" />
+                            </p:column>
+
+                            <p:column>
+                                <p:inputText id="email"
+                                             value="#{loginAdminController.emailDoCientista}"
+                                             required="true" requiredMessage="Mandatory field isn't filled.">
+                                </p:inputText>
+                            </p:column>
+                            <p:column>
+                                <h:outputLabel for="instituicao" value="Institution:" />
+                            </p:column>
+                            <p:column>
+                                <p:inputText id="instituicao"
+                                             value="#{loginAdminController.instuicao}" required="true"
+                                             requiredMessage="Mandatory field isn't filled.">
+                                </p:inputText>
+                            </p:column>
+
+                        </p:panelGrid>
+
+                        <p:column colspan="2">
+                            <h:commandButton type="submit" id="loginButton" value="Submit"
+                                             action="#{loginAdminController.validaEditCadastro()}" />
+                        </p:column>
+
+                        <p:column colspan="2">
+                            <div id="mensagensLogin">
+                                <h:messages showSummary="false" showDetail="true" />
+                            </div>
+                        </p:column>
+
+                    </p:panelGrid>
+
+                </h:form>
+            </div>
+        </div>
+    </ui:define>
+
+
+    <ui:define name="lateralDireita">
+        <ui:include src="includePage5LateralDireita01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="rodape">
+        <ui:include src="includePage6Rodape01.xhtml" />
+    </ui:define>
+
+
+</ui:composition>

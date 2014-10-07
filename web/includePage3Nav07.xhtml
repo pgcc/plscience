@@ -1,0 +1,47 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                xmlns:p="http://primefaces.org/ui">
+
+    <!--PAGINA DE INCLUDE DO JSF CONTEUDO ESPECIFICO DE UMA AREA-->
+
+    <div id="navInterno">
+
+        <h:form id="formID48" rendered="#{central.loginController.usuarioLogado}">
+            <div id="posiNav">
+                <h:graphicImage width="20" height="20"
+                                url="resources/images/5958_64x64.png"
+                                alt="Click image to visit UFJF" />
+                <h:graphicImage width="5" height="10"
+                                url="resources/images/campoVirtual.png"
+                                alt="Click image to visit UFJF" />
+                <h:graphicImage width="10" height="15"
+                                url="resources/images/setaIII.png" alt="Click image to visit UFJF" />
+                <h:graphicImage width="5" height="10"
+                                url="resources/images/campoVirtual.png"
+                                alt="Click image to visit UFJF" />
+
+                <div id="posiNavII">
+                    <c:if test="#{central.development.mostraalgoritmo == true}" >
+                        <h:outputText value="Development from the Tree Features" />
+                    </c:if>
+                    <c:if test="#{central.development.mostraalgoritmo == false}" >
+                        <h:outputText value="Development: Selection Algorithms" />
+                    </c:if>
+                </div>
+            </div>
+
+        </h:form>
+    </div>
+</ui:composition>
+
+<!-- <h:graphicImage width="10" height="15"
+                                        url="resources/images/setaIII.png" alt="Click image to visit UFJF" />
+                                <h:graphicImage width="5" height="10"
+                                        url="resources/images/campoVirtual.png"
+                                        alt="Click image to visit UFJF" /> -->
+
+
+

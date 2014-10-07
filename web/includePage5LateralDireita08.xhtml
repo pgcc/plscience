@@ -1,0 +1,158 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                xmlns:p="http://primefaces.org/ui">
+
+    <!--ESSA PAGINA E INCLUIDA NO JSF  -->
+     <div id="lateral">
+        <br /> <br />
+        <p:accordionPanel activeIndex="#{central.development.perceptionBoxController.numAbaAbertaDVLP1}" multiple="true">
+            <p:tab title="Last Tasks Performed">
+                <p:carousel itemStyle="height: 120px; width:160px;" numVisible="2"
+                            value="#{central.development.perceptionBoxController.usersDVLP1}" var="user" headerText="TimeLine">
+                    <h:panelGrid columns="1" style="width:300px;  height:100px;"
+                                 cellpadding="5">
+                        <h:panelGrid columns="2">
+                            <h:panelGrid columns="3">
+                                <p:graphicImage width="5px;" height="20"
+                                                value="/resources/images/campoVirtual.png"
+                                                style="text-align:center;" />
+
+                                <p:graphicImage width="40" height="40"
+                                                value="/resources/images/users/#{user.nomeFoto}.png"
+                                                style="text-align:center;" />
+                                <p:graphicImage width="5px;"
+                                                value="/resources/images/campoVirtual.png"
+                                                style="text-align:center;" />
+
+                            </h:panelGrid>
+                            <h:panelGrid columns="1">                                   
+                                <h:outputText value="#{user.nameScientist}" />
+                                <h:outputText value=" #{user.institutionScientist}" />
+                            </h:panelGrid>
+
+                        </h:panelGrid>
+
+                        <h:panelGrid columns="3">
+                            <p:graphicImage width="10px;" height="20"
+                                            value="/resources/images/campoVirtual.png"
+                                            style="text-align:center;" />
+
+                            <h:outputText style="font-size: 10px;" value="#{user.description}" />
+                        </h:panelGrid>
+                        <h:panelGrid columns="4">
+                            <p:graphicImage width="10px;" height="20"
+                                            value="/resources/images/campoVirtual.png"
+                                            style="text-align:center;" />
+
+                            <h:outputText value="#{user.data}" />
+                            <h:outputText value=" - " />
+                            <h:outputText value="#{user.hora}" />
+                        </h:panelGrid>
+                    </h:panelGrid>
+                </p:carousel>
+            </p:tab>
+            <!-- BUSCA-ANTOLOGICA-INICIO -->
+            <p:tab title="Ontological Research">
+                <h:form id="formID58">
+                    <h:panelGrid columns="1">
+                        <h:outputText style="font-weight: bold;" value="Query By Terms" />
+                        <h:panelGrid columns="3">
+
+                            <h:inputText value="#{central.development.perceptionBoxController.fieldTerms}" alt="Research" />                            
+                            <h:commandButton style="font-size: 12px;" type="submit" id="wklwm76ye"
+                                             value="Go!" action="#{central.loginController.perceptionBoxController.queryTerms()}" />
+                        </h:panelGrid>
+                        <h:outputText style="font-weight: bold;" value=" Sparql Query:" />
+                        <h:panelGrid columns="3">
+
+                            <h:inputTextarea cols="30" rows="10" value="#{central.development.perceptionBoxController.sparqlfield}"></h:inputTextarea>                          
+                            <h:commandButton style="font-size: 12px;" type="submit" id="wklwmlkm5"
+                                             value="Go!" action="#{central.loginController.perceptionBoxController.sparqlQuery()}" />
+                        </h:panelGrid>
+                    </h:panelGrid>
+                </h:form>
+            </p:tab>
+            <!-- BUSCA-ANTOLOGICA-FIM -->
+            <!-- MENSAGEM-INICIO-->
+            <p:tab title="Message Box">
+                <div id="contentInternoXZ">
+                    <c:if test="#{central.development.perceptionBoxController.isMostraPageViewIIDVLP1() == true}">
+                        <p:separator id="av4" style=" height:25px" />
+                        <p:dataTable style="text-align: center;" id="cars" var="car"
+                                     value="#{central.development.perceptionBoxController.listAnrafelSQL06DVLP1}">
+                            <f:facet name="header">  
+                                Click "View" button after selecting a row to see details  
+                            </f:facet>
+                            <p:column headerText="ID">  
+                                #{car.idRationale} 
+                            </p:column>
+
+                            <p:column headerText="Scientist">  
+                                #{car.nameScientist}  
+                            </p:column>
+
+                            <p:column headerText="Read">
+                                <h:graphicImage id="ajax2weawaer" rendered="#{!car.lidaSN}"
+                                                width="30" height="30" url="resources/images/mail-open.png"
+                                                alt="Message" />
+                                <h:graphicImage id="ajax2wewewewe" rendered="#{car.lidaSN}"
+                                                width="30" height="30" url="resources/images/mail-closed.png"
+                                                alt="Message" />
+                            </p:column>
+
+                            <p:column headerText="View">
+                                <h:form id="idjdkdu87">
+                                    <h:commandButton style="font-size: 12px;" value="See"
+                                                     action="#{central.development.perceptionBoxController.viewContMassageIIIDVLP1()}">
+                                        <f:param value="#{car.idRationale}" id="idRationale" name="idRationale" />
+                                    </h:commandButton>
+                                </h:form>
+                            </p:column>
+
+                        </p:dataTable>
+                    </c:if>
+                    <c:if test="#{central.development.perceptionBoxController.isMostraPageViewIIDVLP1() == false}">
+                        <ui:include src="#{central.development.perceptionBoxController.setaPageViewDVLP1}" />
+                    </c:if>
+                </div>
+            </p:tab>
+            <!--MENSAGEM-FIM -->
+             <!-- USUARIOS-UTILIZOU-ESSE-ARTEFATO-FIM -->
+            <p:tab title="Products built from these Artifacts">
+                <h:form id="formID54">
+                   
+                        <p:dataTable var="xen"
+                                     value="#{central.development.perceptionBoxController.listAnrafelSQL11DVLP1}">
+                            <f:facet name="header">
+                                Products built from these Artifacts
+                            </f:facet>
+                             <p:column style="width:5%">
+                                <f:facet name="header">  
+                                    id 
+                                </f:facet>
+                                 <h:outputText value="#{xen.idRationale}" />
+                            </p:column>
+                            <p:column style="width:49%">
+                                <f:facet name="header">  
+                                    Name 
+                                </f:facet>
+                                <h:outputText value="#{xen.nameScientist}" />
+                            </p:column>
+                            <p:column style="width:49%">
+                                <f:facet name="header">  
+                                    Product Name 
+                                </f:facet>
+                                <h:outputText value="#{xen.productName}" />
+                            </p:column>
+                            
+                        </p:dataTable>
+                  
+                </h:form>
+            </p:tab>
+            <!-- USUARIOS-UTILIZOU-ESSE-ARTEFATO-FIM -->
+        </p:accordionPanel>
+    </div>
+</ui:composition>

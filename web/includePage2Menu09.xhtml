@@ -1,0 +1,27 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui">
+
+    <!--PAGINA DE INCLUDE DO JSF CONTEUDO ESPECIFICO DE UMA AREA-->
+    <!--VOLTAR PARA LOGADO INICIAL LISTA AS ARTEFACTS-->
+    
+   
+
+    <div id="menuInterno">
+        <h:form id="formID38" rendered="#{central.loginController.usuarioLogado}">
+            <h:commandLink style="font-size: 12px;" type="submit" id="volta" 
+                           action="#{central.development.artifactController.listarArtefato()}" >
+                <h:graphicImage id="ajax2we123" width="100" height="30"
+                                url="resources/images/botao08Cancel.png" alt="Message" />          
+                <p:ajax  listener="#{central.development.emptyArrayList()}" />
+            </h:commandLink>		
+        </h:form>
+    </div>
+</ui:composition>
+
+
+
+
+

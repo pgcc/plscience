@@ -1,0 +1,69 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui">
+
+
+    <!--PAGINA DE INCLUDE DO JSF CONTEUDO ESPECIFICO DE UMA AREA-->
+    <!--RODAPE-->
+
+
+
+
+    <h:outputText style="font-size: 15px;" value="Main:" />
+    <br />
+    <p:dataList var="e"  value="#{central.development.perceptionBoxController.listAnrafelSQL07_1DVLP1T}">
+
+        
+        <h:outputText style="color:#789bd5;" value=" Scientist: " />
+        <h:outputText value=" #{e.nameScientist}" /><br />
+
+        <h:outputText style="color:#789bd5;" value=" Date: " />
+        <h:outputText value=" #{e.data} " />
+        <h:outputText value=" #{e.hora} " /><br /><br />
+        
+        <h:outputText style="color:#789bd5;" value="Historical of Activities:" />
+        <h:outputText value="#{e.description}" />
+
+    </p:dataList>          
+    <br />
+    <h:outputText style="font-size: 15px;" value="Note:" />
+    <br />
+    <p:dataList value="#{central.development.perceptionBoxController.listAnrafelSQL07_2DVLP1T}" var="var"
+                style="position:  relative; font-size: 15px; width: 280px;">
+
+        <h:outputText style=" color: #789bd5;"
+                      value=" #{var.idRationale} " />
+        <h:outputText value="#{var.description} " />
+
+    </p:dataList>
+    <br />
+    <h:outputText style="font-size: 15px;" value="Message:" />
+    <br />
+    <p:dataList value="#{central.development.perceptionBoxController.listAnrafelSQL07_3DVLP1T}" var="r"
+                style="position:  relative; font-size: 15px; width: 280px;">
+
+        <h:outputText style=" color: #789bd5;"
+                      value=" #{r.nameScientist} " />
+
+        <h:outputText value="(#{r.data} " />
+
+        <h:outputText  value=" #{r.hora}): " />
+
+        <h:outputText  value="#{r.message}" />
+
+    </p:dataList>
+
+    <br />
+    <p:graphicImage width="10px;" height="10px;" 
+                    value="/resources/images/seta.png"
+                    style="text-align:center;" />
+    <h:commandLink style="font-size: 12px;" type="submit"
+                   id="incluiqwdr22" value="Back"
+                   action="#{central.development.perceptionBoxController.includeUsuarioBackDVLP1T()}">
+    </h:commandLink>
+
+</ui:composition>
+
+

@@ -1,0 +1,67 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui">
+
+
+    <!--PAGINA DE INCLUDE DO JSF CONTEUDO ESPECIFICO DE UMA AREA-->
+    <!--RODAPE-->
+
+
+
+
+    <h:outputText style="font-size: 15px;" value="Main:" />
+    <br />
+    <p:dataList var="e"  value="#{central.artifactController.perceptionBoxController.listAnrafelSQL07_1ATED}">
+
+        <h:outputText style="color:#789bd5;" value=" Product: " />
+        <h:outputText value="#{e.description}" /><br />
+        <h:outputText style="color:#789bd5;" value=" Scientist: " />
+        <h:outputText value=" #{e.nameScientist}" /><br />
+
+        <h:outputText style="color:#789bd5;" value=" Date: " />
+        <h:outputText value=" #{e.data} " />
+        <h:outputText value=" #{e.hora} " />
+
+    </p:dataList>          
+    <br />
+    <h:outputText style="font-size: 15px;" value="Note:" />
+    <br />
+    <p:dataList value="#{central.artifactController.perceptionBoxController.listAnrafelSQL07_2ATED}" var="r"
+                style="position:  relative; font-size: 15px; width: 280px;">
+
+        <h:outputText style="font-size: 15px; color: #789bd5;"
+                      value=" #{r.idRationale} " />
+        <h:outputText style="font-size: 15px;" value="#{r.description} " />
+
+    </p:dataList>
+    <br />
+    <h:outputText style="font-size: 15px;" value="Message:" />
+    <br />
+    <p:dataList value="#{central.artifactController.perceptionBoxController.listAnrafelSQL07_3ATED}" var="r"
+                style="position:  relative; font-size: 15px; width: 280px;">
+
+        <h:outputText style="font-size: 15px; color: #789bd5;"
+                      value=" #{r.nameScientist} " />
+
+        <h:outputText style="font-size: 15px;" value="(#{r.data} " />
+
+        <h:outputText style="font-size: 15px;" value=" #{r.hora}): " />
+
+        <h:outputText style="font-size: 15px;" value="#{r.message}" />
+
+    </p:dataList>
+
+    <br />
+    <p:graphicImage width="10px;" height="10px;" 
+                    value="/resources/images/seta.png"
+                    style="text-align:center;" />
+    <h:commandLink style="font-size: 12px;" type="submit"
+                   id="incluiqwdr22" value="Back"
+                   action="#{central.artifactController.perceptionBoxController.includeUsuarioBackATED()}">
+    </h:commandLink>
+
+</ui:composition>
+
+

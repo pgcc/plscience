@@ -1,0 +1,166 @@
+<ui:composition template="/baseTemplate.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                xmlns:p="http://primefaces.org/ui">
+
+
+    <!--TEMPLATE-PADRAO-CONFORME-DOCUMENTADO-NA-PAGINA definePage02Home.xhtml -->
+
+
+    <ui:define name="top">
+        <ui:include src="includePage1Top01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="menu">
+        <ui:include src="includePage2Menu04.xhtml" />
+    </ui:define>
+
+    <ui:define name="nav">
+        <ui:include src="includePage3Nav06.xhtml" />
+    </ui:define>
+
+    <ui:define name="lateralEsquerda">
+        <ui:include src="includePage4LateralEsquerda01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="content">
+        <div id="contentInterno">
+            <div id="OrganizaConteudo">
+                <p:panelGrid columns="1" styleClass="semBorda"
+                             style=" position: relative; width: 800px; height: auto; top:10px;">
+                    <h:column>
+                        <div id="menusUmSuperior">
+                            <div id="menusUmSuperiorCont">
+
+                                <div id="textmenu">
+                                    <h:outputText value="#{central.development.nameViewArtifact1}" />
+                                </div>
+                                <div id="botaomenu">
+                                    <h:form id="formID11">
+                                        <h:commandLink style="font-size: 12px;" type="submit"
+                                                       id="Start"
+                                                       action="#{central.development.startDevelopmentIID}">
+                                            <h:graphicImage id="ajax2we1" width="100" height="30"
+                                                            url="resources/images/botao07Next.png" alt="Message" />
+                                        </h:commandLink>
+                                    </h:form>
+                                </div>
+                            </div>
+                        </div>
+                    </h:column>
+                </p:panelGrid>
+                <br /> <br /> <br />
+                <p:panelGrid columns="3" styleClass="semBorda"
+                             style=" position: relative; width: 800px; height: auto; top:10px;">
+                    <h:column>
+                        <div id="zeroSuperior">
+                            <div id="zeroSuperiorCont">
+                                <h:outputText id="out"
+                                              value="#{central.development.nameArtifactD}" />
+                            </div>
+                        </div>
+                    </h:column>
+
+                    <h:column>
+                        <div id="zeroSuperiorMap">
+                            <div id="zeroSuperiorContMap">
+                                <h:outputText id="out1"
+                                              value="#{central.development.nameArtifactMapD}" />
+                            </div>
+                        </div>
+                    </h:column>
+
+                    <h:column>
+                        <div id="zeroSuperiorOnt">
+                            <div id="zeroSuperiorContOnt">
+                                <h:outputText id="out2"
+                                              value="#{central.development.nameArtifactOntD}" />
+                            </div>
+                        </div>
+                    </h:column>
+                </p:panelGrid>
+                <br /> <br /> <br />
+                <p:panelGrid columns="3" styleClass="semBorda"
+                             style=" position: relative; width: 800px;">
+                    <h:column>
+                        <h:form  id="formID14">
+                            <p:dataTable  var="car" value="#{central.development.artifactsArtD}">  
+
+                                <p:column  headerText="Artifacts">
+                                    <h:outputText value="#{car.name}" />
+                                </p:column>
+
+                                <p:column headerText=" ">
+                                    <h:commandButton style="font-size: 12px;" type="submit"
+                                                     id="develop"
+                                                     action="#{central.development.recebeArtifactArtD()}"
+                                                     value="OK">
+                                        <f:param value="#{car.idArtifact}" id="idArtifact"
+                                                 name="idArtifact" />
+                                    </h:commandButton>
+                                </p:column>
+
+                            </p:dataTable>
+                        </h:form>
+                    </h:column>
+                    <h:column>
+                        <h:form id="formID12">
+                            <p:dataTable var="car"
+                                         value="#{central.development.artifactsMapD}">
+                                <p:column headerText="Mapping File">
+                                    <h:outputText value="#{car.name}" />
+                                </p:column>
+                                <p:column headerText=" ">
+                                    <h:commandButton style="font-size: 12px;" type="submit"
+                                                     id="develop"
+                                                     action="#{central.development.recebeArtifactMapD()}"
+                                                     value="OK">
+                                        <f:param value="#{car.idArtifact}" id="idArtifact"
+                                                 name="idArtifact" />
+                                    </h:commandButton>
+                                </p:column>
+                            </p:dataTable>
+                        </h:form>
+                    </h:column>
+                    <h:column>
+                        <h:form>
+                            <p:dataTable var="car"
+                                         value="#{central.development.artifactsOntD}">
+                                <p:column headerText="Ontology">
+                                    <h:outputText value="#{car.name}" />
+                                </p:column>
+                                <p:column headerText=" ">
+                                    <h:commandButton style="font-size: 12px;" type="submit"
+                                                     id="develop"
+                                                     action="#{central.development.recebeArtifactOntD()}"
+                                                     value="OK">
+                                        <f:param value="#{car.idArtifact}" id="idArtifact"
+                                                 name="idArtifact" />
+                                    </h:commandButton>
+                                </p:column>
+                            </p:dataTable>
+                        </h:form>
+                    </h:column>
+                </p:panelGrid>
+            </div>
+        </div>
+    </ui:define>
+
+
+
+    <ui:define name="lateralDireita">
+      <ui:include src="includePage5LateralDireita05.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="rodape">
+        <ui:include src="includePage6Rodape01.xhtml" />
+    </ui:define>
+
+
+</ui:composition>

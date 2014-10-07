@@ -1,0 +1,124 @@
+<ui:composition template="baseTemplate.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                xmlns:p="http://primefaces.org/ui">
+
+
+
+
+    <!--ENCAIXA-SE NO A1TEMPLATE NO TOPO-->
+    <ui:define name="top">
+        <!--ESTOU INCLUINDO UMA PAGINA INTEIRA XHTML ESSA PAGINA DE INCLUSÃO SÓ POSSUI CONTEUDO DA AREA DO TOP-->
+        <ui:include src="includePage1Top02.xhtml" />
+    </ui:define>
+
+
+    <!--ENCAIXA-SE NO A1TEMPLATE NO MENU-->
+    <ui:define name="menu">
+        <!--ESTOU INCLUINDO UMA PAGINA INTEIRA XHTML ESSA PAGINA DE INCLUSÃO SÓ POSSUI CONTEUDO DA AREA DO MENU-->
+        <ui:include src="includePage2Menu00.xhtml" />
+    </ui:define>
+
+
+    <!--ENCAIXA-SE NO A1TEMPLATE NO NA BARRA LATERAL ESQUERDA-->
+    <ui:define name="lateralEsquerda">
+        <!--ESTOU INCLUINDO UMA PAGINA INTEIRA XHTML ESSA PAGINA DE INCLUSÃO SÓ POSSUI CONTEUDO DA AREA DO LATERAL ESQUERDA-->
+        <ui:include src="includePage4LateralEsquerda01.xhtml" />
+        <!--veja agora essa pagina d1LateralEsquerda.xhtml está totalmente vazia não quero que apareça nada nessa lateral-->
+    </ui:define>
+
+
+    <!--ENCAIXA-SE NO A1TEMPLATE NO CONTENT-->
+    <ui:define name="content">
+        <h:form id="formID01">
+            <div id="contentInternoLogin">
+                <div id="positioninicial">
+
+                    <div id="identificaCabecalho">
+                        <h:outputText value="Collaborative PL-Science - Login:" />
+
+
+                        <div id="avisoCabecalho">
+                            <h:outputText value="Enter the username and password to continue." />
+                        </div>
+                    </div>
+
+                    <div id="OrganizaConteudoLogin">
+
+
+
+                        <p:panelGrid columns="1" styleClass="semBorda1">
+                            <p:panelGrid columns="1" styleClass="semBorda1">
+
+                            </p:panelGrid>
+                            <p:panelGrid columns="2" styleClass="semBorda1">
+
+                                <p:column>
+                                    <h:outputLabel value="User:" />
+                                </p:column>
+                                <p:column>
+                                    <p:inputText id="nome"
+                                                 value="#{central.loginController.pegaUser.login}"
+                                                 requiredMessage="Campo obrigatório não preenchido">
+                                    </p:inputText>
+                                </p:column>
+                                <p:column>
+                                    <h:outputLabel for="password" value="Senha:" />
+                                </p:column>
+                                <p:column>
+                                    <p:password
+                                        value="#{central.loginController.pegaUser.password}"
+                                        id="password" required="true" label="password"
+                                        requiredMessage="Campo obrigatório não preenchido">
+                                    </p:password>
+                                </p:column>
+                            </p:panelGrid>
+
+                            <p:column colspan="2">
+                                <h:commandLink 
+                                    style="position:relative; text-align:  left; font-size: 12px;"
+                                    type="submit" id="loginButton"
+                                    action="#{central.loginController.validaLogin()}">
+                                    <h:graphicImage id="ajax2we123" width="100" height="30"
+                                                    url="resources/images/botao05Login.png" alt="Message" />
+                                </h:commandLink>
+                            </p:column>
+
+                            <p:column colspan="2">
+                                <div id="mensagensLogin" style="color: red;">
+                                    <h:messages showSummary="false" showDetail="true" />
+                                </div>
+                            </p:column>
+
+                            <p:column colspan="2">
+                                <div id="espaco"></div>
+                            </p:column>
+
+                        </p:panelGrid>
+
+                    </div>
+                </div>
+            </div>
+        </h:form>
+    </ui:define>
+
+
+    <!--ENCAIXA-SE NO A1TEMPLATE  NA BARRA LATERAL DIREITA-->
+    <ui:define name="lateralDireita">
+        <!--ESTOU INCLUINDO UMA PAGINA INTEIRA XHTML ESSA PAGINA DE INCLUSÃO SÓ POSSUI CONTEUDO DA AREA DO LATERAL DIREITA-->
+        <ui:include src="includePage5LateralDireita01.xhtml" />
+        <!--veja agora essa pagina e1LateralDireita.xhtml está totalmente vazia não quero que apareça nada nessa lateral-->
+    </ui:define>
+
+
+    <!--ENCAIXA-SE NO A1TEMPLATE NO RODAPÉ-->
+    <ui:define name="rodape">
+        <!--ESTOU INCLUINDO UMA PAGINA INTEIRA XHTML ESSA PAGINA DE INCLUSÃO SÓ POSSUI CONTEUDO DA AREA DO RODAPE-->
+        <ui:include src="includePage6Rodape01.xhtml" />
+    </ui:define>
+
+
+</ui:composition>

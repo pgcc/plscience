@@ -1,0 +1,98 @@
+<ui:composition template="/baseTemplate.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                xmlns:p="http://primefaces.org/ui">
+
+
+    <!--TEMPLATE-PADRAO-CONFORME-DOCUMENTADO-NA-PAGINA definePage02Home.xhtml -->
+
+    <ui:define name="top">
+        <ui:include src="includePage1Top01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="menu">
+        <ui:include src="includePage2Menu02.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="nav">
+        <ui:include src="includePage3Nav01.xhtml" />
+    </ui:define>
+
+    <ui:define name="lateralEsquerda">
+        <ui:include src="includePage4LateralEsquerda01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="content">
+        <div id="contentInterno">
+
+            <h:form id="formID05" enctype="multipart/form-data">
+
+                <h:panelGrid id="formFoto">
+                    <h:graphicImage width="40" height="40" id="formFoto"
+                                    url="resources/images/05.png" alt="click on image to visit PGCC" />
+                    <p:commandButton id="modalDialogButton" value="Foto"
+                                     onclick="PF('dlg2').show();" type="button" />
+
+                </h:panelGrid>
+
+
+                <p:dialog id="modalDialog" header="Modal Dialog" widgetVar="dlg2"
+                          modal="true" width="600" height="500">
+                    <h:panelGrid border="0" columns="1" cellspacing="5" width="100%">
+                        <p:panel>
+                            <h:panelGrid columns="2" width="50%">
+                                <p:commandButton value="Establecer como foto de perfil"
+                                                 disabled="#{editorUsuarioFoto.imageTemp==null}"
+                                                 action="#{editorUsuarioFoto.actionGuardarFoto}" process="@form"
+                                                 oncomplete="ventanaFoto.hide();"
+                                                 update="formFoto :formDatos:panelFoto" />
+
+                                <p:commandButton value="Cancelar" type="button"
+                                                 onclick="ventanaFoto.hide();" />
+                            </h:panelGrid>
+                        </p:panel>
+
+                        <p:panel styleClass="editorFoto">
+                            <p:imageCropper value="#{editorUsuarioFoto.croppeFoto}"
+                                            image="/usuario/temp/#{editorUsuarioFoto.imageTemp}"
+                                            rendered="#{editorUsuarioFoto.imageTemp!=null}"
+                                            initialCoords="0,0,140,150" minSize="70,75" maxSize="280,300"
+                                            aspectRatio="0.9" />
+
+                            <p:fileUpload
+                                fileUploadListener="#{editorUsuarioFoto.uploadFile}"
+                                rendered="#{editorUsuarioFoto.imageTemp==null}" mode="advanced"
+                                label="Seleccione Foto (max.500Kb)" auto="true"
+                                update="formFoto" sizeLimit="500000"
+                                allowTypes="/(\.|\/)(gif|jpe?g|png)$/" />
+                        </p:panel>
+
+                    </h:panelGrid>
+                </p:dialog>
+            </h:form>
+        </div>
+
+
+
+
+
+    </ui:define>
+
+
+    <ui:define name="lateralDireita">
+        <ui:include src="includePage5LateralDireita01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="rodape">
+        <ui:include src="includePage6Rodape01.xhtml" />
+    </ui:define>
+
+
+</ui:composition>

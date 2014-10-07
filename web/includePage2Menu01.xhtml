@@ -1,0 +1,32 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                xmlns:p="http://primefaces.org/ui">
+    <div id="menuInterno">
+        <h:form id="formID32" rendered="#{central.loginController.usuarioLogado}" class="menuPrincipal">
+            <h:commandLink type="submit" id="include" action="#{central.uploadController.uploadArtifact()}">
+                Include Artifact
+            </h:commandLink>
+            <h:commandLink type="submit" id="develop" action="#{central.development.productDevelopment()}">
+                Development
+                <f:param value="#{central.loginController.idUserContext}" id="idScientist" name="idScientist" />
+            </h:commandLink>
+            <h:commandLink type="submit" id="workflow" action="#{central.development.geraListaWorkflow}">
+                Workflows Built
+            </h:commandLink>
+            <c:if test="#{central.loginController.autorizaLogin == false}">
+                <h:commandLink type="submit" id="admin" action="#{central.adminController.administracao()}">
+                    Admin
+                </h:commandLink>
+            </c:if>
+            <h:commandLink type="submit" id="network" action="#{central.networkController.network}">
+                Network
+            </h:commandLink>
+            <h:commandLink type="submit" id="logout" action="#{central.loginController.logout}">
+                Logout
+            </h:commandLink>
+        </h:form>
+    </div>
+</ui:composition>

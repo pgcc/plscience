@@ -1,0 +1,213 @@
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX pre0: <http://plscience.superdignus.com/SequenceAligningOntology#>
+SELECT ?object
+    WHERE { pre0:application_type rdfs:subClassOf ?object }
+
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX pre0: <http://plscience.superdignus.com/SequenceAligningOntology#>
+SELECT ?object
+    WHERE { pre0:runPhredService rdfs:subClassOf ?object }
+
+
+
+
+
+
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX pre0: <http://plscience.superdignus.com/SequenceAligningOntology#>
+SELECT ?type
+    WHERE { pre0:CAP3_Sequence_Assembly_Program rdfs:Property ?type }
+
+
+
+
+
+
+
+
+
+
+
+
+//gabriela1
+PREFIX pre0:<http://plscience.superdignus.com/SequenceAligningOntology#>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl:<http://www.w3.org/2002/07/owl#>
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?restrictionPredicate ?restrictionValue
+WHERE { pre0:isolated_application rdfs:subClassOf ?restriction.  ?restriction  rdf:type owl:Restriction . ?restriction ?restrictionPredicate ?restrictionValue }
+
+
+
+
+
+
+
+//gabriela2
+PREFIX :<http://plscience.superdignus.com/SequenceAligningOntology.owl#>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl:<http://www.w3.org/2002/07/owl#>
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?c 
+WHERE {
+?c rdfs:subClassOf ?r .
+?r rdf:type owl:Restriction .
+?r owl:onProperty <http://plscience.superdignus.com/SequenceAligningOntology#task_performed_by> .
+?r owl:someValuesFrom ?i .
+}
+
+
+exemplo generico
+PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+SELECT ?first ?last
+WHERE
+{
+?person ab:homeTel "(229) 276-5135" ;
+ab:firstName ?first ;
+ab:lastName ?last .
+}
+
+
+PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+
+SELECT ?hasLocation ?type
+WHERE
+{
+?person ab:homeTel "(229) 276-5135" ;
+ab:firstName ?first ;
+ab:lastName ?last .
+}
+
+/*PEGA TODOS TASK*/
+	String queryString = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
+				+ "PREFIX owl: <http://www.w3.org/2002/07/owl#> "
+				+ "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> "
+				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "
+				+ "PREFIX pre0: <http://plscience.superdignus.com/SequenceAligningOntology#>"
+				+ "SELECT ?c ?i "
+				+ "WHERE { "
+				+ "?c rdfs:subClassOf ?r. "
+				+ "?r rdf:type owl:Restriction . "
+				+ "?r owl:onProperty <http://plscience.superdignus.com/SequenceAligningOntology#task_performed_by> . "
+				+ "?r owl:someValuesFrom ?i}";
+
+
+
+
+
+
+
+
+
+
+
+
+
+ String queryString =
+            "PREFIX ex:<http://gabriellacastro.com.br/SequenceAligningOntology#> "+
+            "PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> "+
+            "PREFIX owl:<http://www.w3.org/2002/07/owl#> "+
+            "PREFIX xsd:<http://www.w3.org/2001/XMLSchema#> "+
+            "PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#> "+
+            "SELECT ?restrictionPredicate ?restrictionValue "+
+            "    WHERE { ex:"+className+" rdfs:subClassOf ?restriction. "+
+            "       ?restriction  rdf:type owl:Restriction . " +
+            "       ?restriction ?restrictionPredicate ?restrictionValue } ";
+
+
+
+
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX pre0: <http://plscience.superdignus.com/SequenceAligningOntology#>
+SELECT ?object 
+	WHERE { pre0:base_calling rdfs:task_performed_by ?object }
+
+
+
+
+
+SELECT * WHERE{
+  ?task rdf:subclassOf :bioinformatics_task.
+  ?algorithm rdf:type :bioinformatics_algorithm.
+  ?task :task_performed_by ?algorithm.
+  FILTER(?task = <uri>)
+}
+
+
+
+String queryString = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
+				+ "PREFIX owl: <http://www.w3.org/2002/07/owl#> "
+				+ "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> "
+				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "
+				+ "PREFIX pre0: <http://plscience.superdignus.com/SequenceAligningOntology#>"
+				+ "SELECT * WHERE{"
+				+ "?task rdfs:subclassOf pre0:bioinformatics_task."
+				+ "?algorithm rdf:type pre0:bioinformatics_algorithm."
+				+ "?task pre0:task_performed_by ?algorithm."
+				+ " FILTER(?task = pre0:" + uri + ")}";
+
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX pre0: <http://plscience.superdignus.com/SequenceAligningOntology#>
+SELECT * WHERE{
+?task rdfs:subclassOf pre0:bioinformatics_task.
+?algorithm rdf:type pre0:bioinformatics_algorithm.
+?task pre0:task_performed_by ?algorithm.
+FILTER(?task = pre0:assembly)
+}
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX pre0: <http://plscience.superdignus.com/SequenceAligningOntology#>
+SELECT * WHERE{
+?task rdfs:subClassOf pre0:bioinformatics_task.
+?algorithm rdf:type pre0:bioinformatics_algorithm.
+?task pre0:task_performed_by ?algorithm.
+FILTER(?task = pre0:assembly)
+}
+
+
+
+
+
+"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
+				+ "PREFIX owl: <http://www.w3.org/2002/07/owl#> "
+				+ "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> "
+				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "
+				+ "PREFIX pre0: <http://plscience.superdignus.com/SequenceAligningOntology#> "
+				+ "SELECT ?task ?algorithm WHERE{ "
+				+ "?task rdfs:subClassOf pre0:bioinformatics_task. "
+				+ "?algorithm rdf:type pre0:bioinformatics_algorithm. "
+				+ "?task pre0:task_performed_by ?algorithm. "
+				+ "FILTER(?task = pre0:"+query+")} ";
+
+

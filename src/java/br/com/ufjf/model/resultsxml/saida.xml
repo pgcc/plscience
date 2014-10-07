@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Workflow>
+    <Processes>
+        <Process name="INB-dev:genome.imim.es:runPhred" id="Process_1">
+            <Parameters>
+                <Parameter name="type" value="WebService"/>
+                <Parameter name="hasLocation" value="http://www.biocatalogue.org/services/2290"/>
+            </Parameters>
+        </Process>
+    </Processes>
+    <Connections/>
+</Workflow>

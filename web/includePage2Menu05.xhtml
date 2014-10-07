@@ -1,0 +1,21 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui">
+
+    <!--PAGINA DE INCLUDE DO JSF CONTEUDO ESPECIFICO DE UMA AREA-->
+    <!--VOLTAR PARA LOGADO INICIAL LISTA AS ARTEFACTS-->
+    <div id="menuInterno">
+        <h:form id="formID36"  rendered="#{central.loginController.usuarioLogado}">
+            <h:commandButton style="font-size: 12px;" type="submit" id="Select" value="Select Feature" action="#{central.artifactController.listarArtefato()}" />
+            <h:commandButton style="font-size: 12px;" type="submit" id="Create" value="Create Workflow/Application" action="#{central.artifactController.listarArtefato()}" />
+            <h:commandButton style="font-size: 12px;" type="submit" id="volta" value="Cancel Development" action="#{central.artifactController.listarArtefato()}" />
+        </h:form>
+    </div>
+</ui:composition>
+
+
+
+
+

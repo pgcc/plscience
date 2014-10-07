@@ -1,0 +1,112 @@
+<ui:composition template="/baseTemplate.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                xmlns:p="http://primefaces.org/ui">
+
+
+    <!--TEMPLATE-PADRAO-CONFORME-DOCUMENTADO-NA-PAGINA definePage02Home.xhtml -->
+
+
+    <ui:define name="top">
+        <ui:include src="includePage1Top01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="menu">
+        <ui:include src="includePage2Menu07.xhtml" />
+    </ui:define>
+
+    <ui:define name="nav">
+        <ui:include src="includePage3Nav07b.xhtml" />
+    </ui:define>
+
+    <ui:define name="lateralEsquerda">
+        <ui:include src="includePage4LateralEsquerda01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="content">
+        <h:form id="formID15">
+            <div id="contentInterno">
+                <div id="boxSuperiorI">
+
+                    <div id="boxSuperiorContI">
+                        <p:dataTable var="car" style="font-size:12px;"
+                                     value="#{central.development.selectedArtifactZ}">
+                            <f:facet name="header">            				
+                                Product Development Selected
+                            </f:facet>
+                            <p:column headerText="ID:">
+                                <h:outputText value="#{car.idArtifact}" />
+                            </p:column>
+
+                            <p:column headerText="NAME:">
+                                <h:outputText value="#{car.name}" />
+                            </p:column>
+                        </p:dataTable>
+                    </div>
+                </div>
+
+
+                <div id="boxSuperiorII">
+                    <div id="boxSuperiorContII">
+
+
+                        <p:growl  id="formID17"  />
+
+                        <p:panelGrid columns="2" id="contentIIa">
+                            <h:outputLabel value="Product's name:" />
+                            <p:inputText id="Product_Name" required="true"
+                                         validatorMessage="Required Name" size="78"
+                                         value="#{central.development.product_name}" />
+                            <h:outputLabel value="Product's Purpose" />
+                            <p:inputTextarea id="Product_Purpose" autoResize="false"
+                                             required="true" validatorMessage="Required Purpose" cols="76"
+                                             value="#{central.development.product_purpose}" />
+
+
+                            <h:commandButton id="butao" value="Continue"  onclick="statusDialog.show();"
+
+                                             action="#{central.development.viewFeatureReader()}"
+                                             style="margin-right:20px;">
+
+                            </h:commandButton>
+
+
+
+
+                            <p:messages showSummary="true" showDetail="false" />
+
+                        </p:panelGrid>
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <p:dialog modal="true" styleClass="tempoView" widgetVar="statusDialog" draggable="false"
+                      closable="false">
+                Loading... <br /><br />
+                <p:graphicImage value="resources/images/load.gif" width="100"
+                                height="100" />
+            </p:dialog>
+        </h:form>
+    </ui:define>
+
+
+    <ui:define name="lateralDireita">
+        <ui:include src="includePage5LateralDireita08.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="rodape">
+        <ui:include src="includePage6Rodape01.xhtml" />
+    </ui:define>
+
+
+</ui:composition>

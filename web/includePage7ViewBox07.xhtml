@@ -1,0 +1,72 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:p="http://primefaces.org/ui">
+
+
+    <!--PAGINA DE INCLUDE DO JSF CONTEUDO ESPECIFICO DE UMA AREA-->
+    <!--RODAPE-->
+
+
+    <div id="contentInternoXZ">
+        <br />
+        <c:if test="#{central.artifactController.mostraPageViewII == true}">
+            <p:separator id="av4" style=" height:25px" />
+            <p:dataTable style="text-align: center;" id="cars" var="car"
+                         value="#{central.artifactController.listAnrafelSQL06}">
+
+                <f:facet name="header">  
+                    Click "View" button after selecting a row to see details  
+                </f:facet>
+
+                <p:column headerText="Name:">  
+                    #{car.nameScientist}  
+                </p:column>
+
+                <!--  	<p:column headerText="Inst.">  
+                #{car.institutionScientist}  
+            </p:column>
+    
+                            <p:column headerText="Product:">  
+                #{car.productName}  
+            </p:column>
+    
+                            <p:column headerText="Data">  
+                #{car.data}  
+            </p:column>
+                            <p:column headerText="Hora">  
+                #{car.hora}  
+            </p:column>-->
+                <p:column headerText="Lida">
+                    <h:graphicImage id="ajax2weawaer" rendered="#{!car.lidaSN}"
+                                    width="30" height="30" url="resources/images/mail-open.png"
+                                    alt="Message" />
+                    <h:graphicImage id="ajax2wewewewe" rendered="#{car.lidaSN}"
+                                    width="30" height="30" url="resources/images/mail-closed.png"
+                                    alt="Message" />
+                </p:column>
+
+
+                <p:column headerText="View">
+                    <h:form id="idjdkdu87">
+                        <h:commandButton style="font-size: 12px;" 
+                                         value="See" action="#{central.artifactController.viewContMassageII()}">
+                            <f:param value=" #{car.idRationale} " id="idRationale"
+                                     name="idRationale" />
+                        </h:commandButton>
+                    </h:form>
+                </p:column>
+
+            </p:dataTable>
+        </c:if>
+
+        <c:if test="#{central.artifactController.mostraPageViewII == false}">
+            <ui:include src="#{central.artifactController.setaPageView}" />
+        </c:if>
+    </div>
+
+
+
+</ui:composition>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>  
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+
+    </h:head>
+
+    <h:body>
+        <p:dataTable var="car" value="#{messageController.listMassage}">
+            <p:column headerText="Nome:">
+                <h:outputText value="#{car.nameScientist}" />
+            </p:column>
+
+            <p:column headerText="Message">
+                <h:outputText value="#{car.institutionScientist}" />
+            </p:column>
+        </p:dataTable>
+    </h:body>
+
+</html>

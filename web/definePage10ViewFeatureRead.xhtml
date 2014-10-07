@@ -1,0 +1,167 @@
+<ui:composition template="/baseTemplate.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                xmlns:p="http://primefaces.org/ui">
+
+
+    <!--TEMPLATE-PADRAO-CONFORME-DOCUMENTADO-NA-PAGINA definePage02Home.xhtml -->
+
+
+    <ui:define name="top">
+        <ui:include src="includePage1Top01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="menu">
+        <ui:include src="includePage2Menu07.xhtml" />
+    </ui:define>
+
+    <ui:define name="nav">
+        <ui:include src="includePage3Nav07.xhtml" />
+    </ui:define>
+
+    <ui:define name="lateralEsquerda">
+        <ui:include src="includePage4LateralEsquerda01.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="content">
+        <h:form id="formID17">
+            <p:growl id="formID17" showDetail="true" />
+            <div id="contentInterno">
+                <c:if test="#{central.development.isMostraPageViewAlgoritmo() == false}">
+                    <div id="OrganizaConteudoStarDevelop">
+
+                        <div id="boxTree1">
+
+
+                            <div id="butonPlace">
+                                <div id="butonPlaceCont">
+
+                                    <h:commandButton style="font-size: 12px;" type="submit" onclick="statusDialog.show();"
+                                                     id="Select" value="Select Feature" action="#{central.development.select()}" />
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="boxTree">
+                            <p:tree value="#{central.development.root}" var="node" dynamic="true"
+                                    cache="false" selectionMode="single"
+                                    selection="#{central.development.selectedNode}" style="width: 220px;">
+
+                                <p:ajax event="expand" update=":formID17:formID17"
+                                        listener="#{central.development.onNodeExpand}" />
+                                <p:ajax event="collapse" update=":formID17:formID17"
+                                        listener="#{central.development.onNodeCollapse}" />
+                                <p:ajax event="select" update=":formID17:formID17"
+                                        listener="#{central.development.onNodeSelect}" />
+                                <p:ajax event="unselect" update=":formID17:formID17"
+                                        listener="#{central.development.onNodeUnselect}" />
+                                <p:ajax event="select" update=":formID17:messagesIDS"
+                                        listener="#{central.development.Imprime()}" />
+
+
+                                <p:treeNode>
+                                    <h:outputText value="#{node}" />
+                                </p:treeNode>
+
+                            </p:tree>
+
+                        </div>
+                        <div id="boxSuperiorNameProduto">
+                            <div id="boxSuperiorContNameProduto">
+                                <h:outputText value="Name of product development: " />
+                                <h:outputText style="font-weight: bold; color: #789bd5;"
+                                              value="#{central.development.product_name}" />
+                            </div>
+                        </div>
+                        <div id="boxSuperior">
+                            <div id="boxSuperiorCont">
+                                <p:dataTable var="car" style="font-size:12px;"
+                                             value="#{central.development.selectedArtifactZ}">
+                                    <f:facet name="header">            				
+                                        Product Development Selected
+                                    </f:facet>
+                                    <p:column headerText="ID:">
+                                        <h:outputText value="#{car.idArtifact}" />
+                                    </p:column>
+
+                                    <p:column headerText="NAME:">
+                                        <h:outputText value="#{car.name}" />
+                                    </p:column>
+
+                                    <p:column headerText="LOCAL:">
+                                        <h:outputText value="#{car.local}" />
+                                    </p:column>
+                                </p:dataTable>
+                            </div>
+                        </div>
+                        <div id="boxDireito">
+                            <div id="boxDireitoCont">
+                                <h:outputLabel value="Process Indicate" />
+                                <h:inputTextarea id="messagesIDS"	value="#{central.development.returnOnto}"  
+                                                 disabled="true"
+                                                 style="font-family: Baskerville, Times 'Times New Roman' serif; width:  553px; font-size: 15px; color: blue; height: 150px;"
+                                                 rows="4" cols="33" />
+                            </div>
+                        </div>
+                        <div id="showProcess">
+                            <div id="showProcessCont">
+                                <h:commandButton style="font-size: 12px;" type="submit"
+                                                 id="reset" value="Reset Selected " action="#{central.development.reset()}" />
+                                <h:inputTextarea value="#{central.development.showProcessview}"  
+                                                 disabled="true"
+                                                 style="font-family: Baskerville, Times 'Times New Roman' serif; width: 553px; font-size: 15px; color: green; height: 100px;" 
+                                                 rows="4" cols="32" />
+                            </div>
+                        </div>
+                        <!-- 	<div id="showWorkflow">
+                                        <h:outputText value="Show Workflow" />
+                                        <div id="showWorkflowCont">
+                                                <br /> <br /> <br />
+                                                 <p:graphicImage id="ajax2we" width="500" height="130"
+                                                        url="resources/images/workflow.svg" alt="Message" />
+                                        </div>
+                                </div>-->
+
+                        <div id="boxFeatureModel">
+                            <div id="boxFeatureModelCont">
+                                <h:outputText value="Feature Model: " />
+                            </div>
+                        </div>
+                    </div>
+                </c:if>
+                <c:if test="#{central.development.mostraPageViewAlgoritmo == true}">
+                    <ui:include src="#{central.development.setaPageViewAlgoritmos}" />
+                </c:if>			
+            </div>
+        </h:form>
+        <p:dialog modal="true" styleClass="tempoView" widgetVar="statusDialog"
+                  draggable="false" closable="false">
+            Loading... <br />
+            <br />
+            <p:graphicImage value="resources/images/load.gif" width="100"
+                            height="100" />
+        </p:dialog>
+    </ui:define>
+
+
+    <ui:define name="lateralDireita">
+        <ui:include src="includePage5LateralDireita06.xhtml" />
+    </ui:define>
+
+
+    <ui:define name="rodape">
+        <ui:include src="includePage6Rodape01.xhtml" />
+    </ui:define>
+
+
+</ui:composition>
+
+

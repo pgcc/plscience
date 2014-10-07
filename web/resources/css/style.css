@@ -1,0 +1,1090 @@
+/***ESTE CSS É O CSS DO TEMPLATE NÃO!! DE FORMA NENHUMA! NUNCA! JAMAIS! 
+PENSE EM MEXER NESSE CODIGO A BAIXO COM PENA DE MULTA E PRISÃO DE VENTRE DE 10 ANOS*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;
+}
+
+#top1 {
+    background-color: #d8d8d9;
+}
+
+#menu1 {
+    background-color: silver;
+}
+
+#nav1 {
+    background-color: #eeeeee;
+}
+
+#lateralEsquerda1 {
+    background-color: white;
+}
+
+#lateralDireita1 {
+    background-color: white;
+   
+}
+
+#content1 {
+    background-color: white;
+}
+
+#rodape1 {
+    background: #d8d8d9;
+}
+
+#top1 {
+    height: 100px;
+    width: auto;
+}
+
+#menu1 {
+    height: 30px;
+    width: auto;
+}
+
+#nav1 {
+    height: 30px;
+    width: auto;
+}
+
+#lateralEsquerda1 {
+    height: auto;
+    width: 130px;
+}
+
+#lateralDireita1 {
+    height: auto;
+    width: 380px;
+}
+
+#lateralEsquerda1 {
+    float: left;
+}
+
+#lateralDireita1 {
+    float: right;
+}
+
+#content1 {
+    margin: 1px;
+    /*FAZ A ESQUERDA RECUAR*/
+    margin-left: 100px;
+    /*FAZ A DIREITA RECUAR*/
+    margin-right: 305px;
+    height: auto;
+    width: auto;
+}
+
+#rodape1 {
+    width: auto;
+    height: 70px;
+    clear: both;
+}
+/***********************************************************************************/
+/*ESTE CSS É O CSS DO TEMPLATE NÃO!! DE FORMA NENHUMA! NUNCA! JAMAIS! 
+PENSE EM MECHER NESSE CODIGO A CIMA COM PENA DE MULTA E PRISÃO DE VENTRE DE 10 ANOS*/
+/***********************************************************************************/
+/* DA QUI PARA BAIXO SE PODE MEXER!*/
+/***********************************************************************************/
+#topoInterno {
+    position: relative;
+    width: 150px;
+    height: 60px;
+    top: 0px;
+    left: 100px;
+    border: none;
+}
+
+#menuInterno {
+    position: relative;
+    font-size: 10px;
+    width: 600px;
+    height: 30px;
+    top: 0px;
+    left: 100px;
+}
+
+#navInterno {
+    position: relative;
+    font-size: 15px;
+    width: 700px;
+    height: 30px;
+    top: 15%;
+    left: 100px;
+    color: black;
+}
+
+#posiNav {
+    position: relative;
+    top: 0px;
+}
+
+#posiNavII {
+    position: relative;
+    top: -18px;
+    left: 40px;
+}
+
+#posiNavIII {
+    position: relative;
+    top: -18px;
+    left: 170px;
+}
+
+#posiNavIV {
+    position: relative;
+    top: -18px;
+}
+
+#lateralEsquerdaInterno {
+
+}
+
+#lateralDireitoInterno {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+#contentInterno {
+    position: relative;
+    width: 770px;
+    min-height: 250px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+#contentInternoZX {
+    position: relative;
+    width: 300px;
+    min-height: 250px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.tempoView{
+    z-index: 373837;
+}
+#contentInternoLogin {
+    position: relative;
+    width: 770px;
+    min-height: 250px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+#rodapeInterno {
+    position: relative;
+    width: 950px;
+    top: 0px;
+    left: 100px;
+    text-align: left;
+}
+
+#OrganizaConteudo {
+    position: relative;
+    top: 10px;
+    text-align: left;
+}
+
+#xmlDownload {
+    position: relative;
+    top: 50px;
+    text-align: left;
+}
+
+#OrganizaConteudoStarDevelop {
+    position: relative;
+    top: -5px;
+    text-align: left;
+    height: 900px;
+}
+
+#boxTree {
+    position: relative;
+    top: 265px;
+    text-align: left;
+    width: 250px;
+    height: auto;
+}
+
+#boxTree1 {
+    position: relative;
+    top: 260px;
+    text-align: left;
+    width: 250px;
+    height: auto;
+}
+
+#boxSuperior {
+    position: absolute;
+    width: 810px;
+    height: 136px;
+    top: 70px;
+    left: 0px;
+    background-color: #d8d8d9;
+    /*z-index: 892829282;*/
+    text-align: center;
+}
+
+#boxSuperiorCont {
+    position: relative;
+    width: 790px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+}
+
+
+
+
+#boxAlgorithm {
+    position: absolute;
+    width: 810px;
+    height: 40px;
+    top: 256px;
+    left: 0px;
+    background-color: #d8d8d9;
+    /*z-index: 892829282;*/
+    text-align: center;
+}
+
+#boxAlgorithmCont {
+    position: relative;
+    width: 790px;
+    height: 20px;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+}
+
+#boxAlgorithmII {
+    position: absolute;
+    width: 810px;
+    height: 100px;
+    top: 301px;
+    left: 0px;
+    background-color: #d8d8d9;
+    text-align: center;
+}
+
+#boxAlgorithmContII {
+    position: relative;
+    width: 790px;
+    height: 80px;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+}
+#posialgoritms{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.oneMenu{
+    z-index: 8928292;
+}
+
+#zeroSuperior {
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    top: 0px;
+    left: 10px;
+    background-color: #d8d8d9;
+    z-index: 892829282;
+    text-align: center;
+    font-size: 12px;
+}
+
+#zeroSuperiorCont {
+    position: relative;
+    width: 250px;
+    height: 22px;
+    top: 5px;
+    left: 5px;
+    background-color: yellowGreen;
+    padding-top: 8px;
+    font-size: 12px;
+    color: black;
+    font-weight: bolder;
+}
+/*MAP*/
+#zeroSuperiorMap {
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    top: 0px;
+    left: 300px;
+    background-color: #d8d8d9;
+    z-index: 892829282;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+}
+
+#zeroSuperiorContMap {
+    position: relative;
+    width: 220px;
+    height: 22px;
+    top: 5px;
+    left: 5px;
+    background-color: #EEDD82;
+    color: black;
+    padding-top: 8px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+/*ONT*/
+#zeroSuperiorOnt{
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    top: 0px;
+    left: 560px;
+    background-color: #d8d8d9;
+    z-index: 892829282;
+    text-align: center;
+    font-size: 12px;
+}
+
+#zeroSuperiorContOnt{
+    position: relative;
+    width: 220px;
+    height: 22px;
+    top: 5px;
+    left: 5px;
+    background-color: #E9967A;
+    color: black;
+    padding-top: 8px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+/*MENUS UM*/
+#menusUmSuperior{
+    position: absolute;
+    width: 790px;
+    height: 40px;
+    top: 10px;
+    left: 0px;
+    background-color: #d8d8d9;
+    z-index: 892829282;
+    text-align: right;
+    font-size: 12px;
+
+
+}
+#textmenu{
+    position: relative;
+    left: 0px;
+    font-weight: normal;
+    width: 700px;
+    top: 5px;
+    text-align: left;
+}
+#botaomenu{
+    position: relative;
+    right: 0px;
+    width: 50px;
+    left: 670px;
+    top: -19px;
+}
+
+#menusUmSuperiorCont{
+    position: relative;
+    width: 760px;
+    height: 26px;
+    top: 5px;
+    left: 5px;
+    background-color: white;
+    padding-top: 4px;
+    padding-left: 10px;
+    font-size: 12px;
+    padding-right: 10px;
+}
+#boxSuperiorI {
+    position: absolute;
+    width: 810px;
+    height: 136px;
+    top: 25px;
+    left: 0px;
+    background-color: #d8d8d9;
+    /*z-index: 892829282;*/
+    text-align: center;
+}
+
+#boxSuperiorContI {
+    position: relative;
+    width: 790px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+}
+
+#boxSuperiorNameProduto {
+    position: absolute;
+    width: 810px;
+    height: 40px;
+    top: 25px;
+    left: 0px;
+    background-color: #d8d8d9;
+    /*z-index: 892829282;*/
+    text-align: center;
+
+}
+
+#boxSuperiorContNameProduto {
+    position: relative;
+    width: 790px;
+    height: 20px;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    text-align: left;
+    font-size: 17px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align: left;
+}
+
+#boxFeatureModel {
+    position: absolute;
+    width: 222px;
+    height: 40px;
+    top: 257px;
+    left: 0px;
+    background-color: #d8d8d9;
+    /*z-index: 892829282;*/
+    text-align: center;
+}
+
+#boxFeatureModelCont {
+    position: relative;
+    width: 197px;
+    height: 20px;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    text-align: left;
+    font-size: 13px;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+#boxSuperiorII {
+    position: absolute;
+    width: 810px;
+    min-height: 175px;
+    top: 167px;
+    left: 0px;
+    background-color: #d8d8d9;
+    /*z-index: 892829282;*/
+    text-align: center;
+}
+
+#boxSuperiorContII {
+    position: relative;
+    width: 790px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+
+}
+
+#boxSuperiorIII {
+    position: absolute;
+    width: 810px;
+    height: 209px;
+    top: 25px;
+    left: 0px;
+    background-color: #d8d8d9;
+    z-index: 892829282;
+    text-align: center;
+}
+
+#boxSuperiorContIII {
+    position: relative;
+    width: 790px;
+    height: 185px;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+}
+
+#boxSuperiorIV {
+    position: absolute;
+    width: 810px;
+    height: 233px;
+    top: 25px;
+    left: 0px;
+    background-color: #d8d8d9;
+    z-index: 8928;
+    text-align: center;
+}
+
+#boxSuperiorContIV {
+    position: relative;
+    width: 790px;
+    height: 185px;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    text-align: left;
+}
+
+#boxSuperiorVI {
+    position: absolute;
+    width: 810px;
+    height: 213px;
+    top: 25px;
+    left: 0px;
+    background-color: #d8d8d9;
+    z-index: 8928;
+    text-align: center;
+}
+
+#boxSuperiorContVI {
+    position: relative;
+    width: 790px;
+    height: 185px;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    text-align: left;
+}
+
+#fileUpload {
+    position: relative;
+    top: 5px;
+    text-align: left;
+}
+
+#Button {
+    position: relative;
+    top: 5px;
+    text-align: left;
+    padding-top: 5px;
+}
+
+#cancel {
+    position: relative;
+    top: -17px;
+    left: 35px;
+    text-align: left;
+    padding-top: 5px;
+    text-align: left;
+}
+
+
+
+#Button1 {
+    position: relative;
+    top: 5px;
+    text-align: left;
+    padding-top: 5px;
+}
+
+#cancel1 {
+    position: relative;
+    top: -26px;
+    left: 65px;
+    text-align: left;
+    padding-top: 5px;
+    text-align: left;
+}
+
+#boxSuperiorV {
+    position: absolute;
+    width: 810px;
+    height: 245px;
+    top: 25px;
+    left: 0px;
+    background-color: #d8d8d9;
+    z-index: 892829282;
+    text-align: center;
+}
+
+#boxSuperiorContV {
+    position: relative;
+    width: 790px;
+    height: 185px;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+}
+
+#butonPlace {
+    position: relative;
+    width: 810px;
+    height: 40px;
+    top: -49px;
+    background-color: #d8d8d9;
+    /*z-index: 7464746474644;*/
+}
+
+#butonPlaceCont {
+    position: relative;
+    width: 790px;
+    left: 10px;
+    top: 10px;
+    height: 20px;
+    background-color: white;
+    /*z-index: 7464746474644;*/
+}
+
+#boxCentral {
+    position: absolute;
+    width: 287px;
+    height: 200px;
+    top: 256px;
+    left: 230px;
+    background-color: #d8d8d9;
+    z-index: 892829282;
+    text-align: center;
+}
+
+#boxCentralCont {
+    position: relative;
+    width: 267px;
+    height: 180px;
+    background-color: white;
+    left: 10px;
+    top: 10px;
+}
+
+#boxDireito {
+    position: absolute;
+    width: 580px;
+    height: 200px;
+    background-color: #d8d8d9;
+    top: 256px;
+    left: 230px;
+    /*z-index: 892829282;*/
+    text-align: center;
+}
+
+#boxDireitoCont {
+    position: relative;
+    width: 560px;
+    height: 180px;
+    background-color: white;
+    top: 10px;
+    left: 10px;
+}
+
+#showProcess {
+    position: absolute;
+    width: 580px;
+    height: 150px;
+    background-color: #d8d8d9;
+    top: 460px;
+    left: 230px;
+    /*z-index: 892829282;*/
+    text-align: center;
+}
+
+#showProcessCont {
+    position: relative;
+    width: 560px;
+    height: 130px;
+    background-color: white;
+    top: 10px;
+    left: 10px;
+}
+
+#showWorkflow {
+    position: absolute;
+    width: 580px;
+    height: 300px;
+    background-color: #d8d8d9;
+    top: 615px;
+    left: 230px;
+    z-index: 892829282;
+    text-align: center;
+}
+
+#showWorkflowCont {
+    position: relative;
+    width: 560px;
+    height: 260px;
+    background-color: white;
+    top: 10px;
+    left: 10px;
+    z-index: 837393738373;
+}
+
+#OrganizaConteudoLogin {
+    position: relative;
+    top: 60px;
+}
+
+#OrganizaConteudoII {
+    position: relative;
+    top: 60px;
+    background-color: #d8d8d9;
+}
+
+#OrganizaConteudoIII {
+    position: relative;
+    top: 100px;
+    background-color: #d8d8d9;
+}
+
+#identificaCabecalho {
+    position: relative;
+    top: 20px;
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#avisoCabecalho {
+    position: relative;
+    top: 20px;
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#NomeUser {
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.semBorda1 tr,.semBorda1 td {
+    border: none !important;
+    background: none !important;
+}
+
+.semBordaH tr,.semBordaH td {
+    border: none !important;
+    background: none !important;
+    width: 800px;
+    text-align: left !important;
+    text-align: left;
+}
+
+#carousel {
+    position: relative;
+    width: 450px;
+    left: 30px;
+    top: 0px;
+}
+
+#datatable {
+    position: relative;
+}
+
+#formChat {
+    position: relative;
+}
+
+#formBar {
+    margin-top: 10px;
+}
+
+.notification {
+    filter: alpha(opacity =                             80);
+    opacity: 0.8;
+    text-align: justify;
+    font-weight: bold;
+    height: 80px;
+}
+
+#editor1 {
+    position: relative;
+    left: 0px;
+}
+
+#topoBarra {
+    position: relative;
+    top: 10px;
+    width: 400px;
+    height: 60px;
+    background-color: silver;
+}
+
+#topoBarraPosi {
+    position: relative;
+    top: 10px;
+    left: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.clickAll {
+    display: block;
+}
+
+#topoBarraII {
+    position: relative;
+    min-height: auto;
+}
+
+#nomeUserSalvo {
+    position: relative;
+    left: 200px;
+    top: 300px;
+    font-size: 15px;
+    color: red;
+}
+
+#positioninicial {
+    position: relative;
+    top: 40px;
+}
+
+#msgDOLogado {
+    position: absolute;
+    top: 20px;
+    left: 870px;
+    width: 200px;
+    height: 100px;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+#msgDOLogadoIMG {
+    position: relative;
+    right: 40px;
+    top: 40px;
+}
+
+.semBorda tr,.semBorda td {
+    border: none !important;
+    background: none !important;
+    text-align: left;
+}
+
+.semBorda1 tr,.semBorda1 td {
+    border: none !important;
+    background: none !important;
+}
+
+.semBordaH tr,.semBordaH td {
+    border: none !important;
+    background: none !important;
+    width: 800px;
+    text-align: left !important;
+    text-align: left;
+}
+
+#lateral {
+    font-size: 11px;
+    padding-bottom: 40px;
+  
+}
+
+#footerAll {
+    position: relative;
+    left: 0px;
+    width: 500px;
+}
+
+#footerIMG01 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#footerIMG02 {
+    position: relative;
+    left: 100px;
+    top: 0px;
+}
+
+#footerIMG02 {
+    position: relative;
+    left: 200px;
+    top: 0px;
+}
+
+#organizaMSG {
+    position: relative;
+    top: 0px;
+    color: red;
+    text-shadow: black;
+    font-size: 15px;
+}
+
+#msgout {
+    position: relative;
+    top: 10px;
+    color: red;
+    text-shadow: black;
+    font-size: 15px;
+    top: 10px;
+}
+
+#contemTable {
+    position: relative;
+    width: 810px;
+    height: auto;
+}
+
+#pinelGrid {
+    position: relative;
+    width: 600px;
+    font-size: 12px;
+    height: 600px;
+    background-color: #eeeeee;
+}
+
+#pinelGridII {
+    position: relative;
+    width: 750px;
+    font-size: 15px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #eeeeee;
+}
+
+#redaTudo {
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+
+#IMGmjsk {
+    position: relative;
+    width: 350px;
+    font-size: 10px;
+    text-align: left;
+    left: 850px;
+    top: -40px;
+}
+
+#mjsk {
+    position: relative;
+    width: 750px;
+    font-size: 12px;
+    text-align: left;
+    top: 10px;
+}
+
+#PRIMEIRO {
+    position: relative;
+    width: 260px;
+    top: 115px;
+    left: 0px;
+}
+
+#SEGUNDO {
+    position: relative;
+    width: 260px;
+    top: 23px;
+    left: 295px;
+}
+
+#TERCEIRO {
+    position: relative;
+    width: 260px;
+    top: -69px;
+    left: 560px;
+}
+
+#msgview{
+    position: relative;
+
+}
+
+#setaGif{
+    position: relative;
+    top: 90px;
+    left: 65px;
+}
+#setaText{
+    position: relative;
+    top: 110px;
+    left: 12px;
+}
+.vrtbgh{
+    text-align: center;
+}
+
+.vrtbghII{
+    text-align: left;
+}
+.wizard{
+    font-size: 15px;
+}
+
+.wizardII{
+    font-size: 15px;
+    text-align: right;
+}
+.wizardIII{
+    font-size: 15px;
+    text-align: left;
+}
+
+.wizardIV{
+    font-size: 15px;
+    text-align: center;
+    color: red;
+}
+.corFonte{
+    color: red;
+}
+
+.botaoSalvarNewUser{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+.botaoUpdateUser{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.menuPrincipal {
+    padding-top: 9px;
+}
+
+.menuPrincipal a {
+    padding: 9px 15px 8px;
+    background-color: #ffffff;
+    color: #333333;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.menuPrincipal a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+span.p2pstatus {
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 3px 5px;
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+span.online {
+    background-color: #51B867;
+}
+
+span.offline {
+    background-color: #DE5152;
+}

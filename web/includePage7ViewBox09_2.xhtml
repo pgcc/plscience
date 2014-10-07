@@ -1,0 +1,65 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"> 
+
+
+    <!--PAGINA DE INCLUDE DO JSF CONTEUDO ESPECIFICO DE UMA AREA pagina-do-incluir-user -->
+
+
+    <h:form prependId="false">
+        <p:panel  header="View User:_ #{central.adminController.nameScientist}">
+
+            <h:messages showDetail="true" showSummary="true"/>
+
+            <h:panelGrid columns="3"  >
+
+                <h:outputText styleClass="wizardII"  value="IdScientist " /> 
+                <p:spacer width="30" height="10" />
+                <h:outputText styleClass="wizardIII" value="#{central.adminController.idScientist}" />
+                
+                <h:outputText styleClass="wizardII"  value="Name: " /> 
+                <p:spacer width="30" height="10" />
+                <h:outputText styleClass="wizardIII" value="#{central.adminController.nameScientist}" />
+
+                <h:outputText styleClass="wizardII" value="CPF: " />
+                <p:spacer width="30" height="10" />
+                <h:outputText  styleClass="wizardIII" value="#{central.adminController.cpfscientist}"  />
+
+                <h:outputText styleClass="wizardII"  value="E-mail: " />
+                <p:spacer width="30" height="10" />
+                <h:outputText styleClass="wizardIII" value="#{central.adminController.emailScientist}" />
+
+                <h:outputText styleClass="wizardII"  value="Institution: " />
+                <p:spacer width="30" height="10" />
+                <h:outputText styleClass="wizardIII" value="#{central.adminController.institutionScientist}" />
+
+                <h:outputText styleClass="wizardII" value="Login: " />     
+                <p:spacer width="30" height="10" />
+                <h:outputText styleClass="wizardIII" value="#{central.adminController.login}" />
+
+               
+
+                <h:outputText styleClass="wizardII" value="Rules: " />
+                <p:spacer width="30" height="10" />
+                <c:if test="#{central.adminController.ruleSelecionado == 1}">
+                    <h:outputText styleClass="wizardIII" value="ROLE_ADMIN" />
+                </c:if>
+                 <c:if test="#{central.adminController.ruleSelecionado == 2}">
+                    <h:outputText styleClass="wizardIII" value="ROLE_USER" />
+                </c:if>
+                 <c:if test="#{central.adminController.ruleSelecionado == 3}">
+                    <h:outputText styleClass="wizardIII" value="ROLE_ADMIN_USER" />
+                </c:if>
+                
+            </h:panelGrid>
+
+        </p:panel>        
+    </h:form>
+         <p:spacer width="30" height="10" />
+        <h:form id="cancel1239">
+            <h:commandButton styleClass="botaoSalvarNewUser"  type="submit"  value="Cancel" action="#{central.adminController.gravaNewUserCancel()}" />
+        </h:form>
+ 
+</ui:composition>
