@@ -12,4 +12,10 @@
     <system systemId="http://localhost:10080/PL-SCIENCE-WS/ServCommunication?xsd=1" uri="src/conf/xml-resources/web-service-references/ServCommunication/wsdl/localhost_10080/PL-SCIENCE-WS/ServCommunication.xsd_1.xsd"/>
     <system systemId="http://localhost:10080/PL-SCIENCE-WS/ServOntologyGenericSparql?wsdl" uri="src/conf/xml-resources/web-service-references/ServOntologyGenericSparql/wsdl/localhost_10080/PL-SCIENCE-WS/ServOntologyGenericSparql.wsdl"/>
     <system systemId="http://localhost:10080/PL-SCIENCE-WS/ServOntologyGenericSparql?xsd=1" uri="src/conf/xml-resources/web-service-references/ServOntologyGenericSparql/wsdl/localhost_10080/PL-SCIENCE-WS/ServOntologyGenericSparql.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/plscience-ws/ServCommunication?wsdl" uri="src/conf/xml-resources/web-services/ServCommunication/wsdl/localhost_8080/plscience-ws/ServCommunication.wsdl"/>
+    <system systemId="http://localhost:8080/plscience-ws/ServCommunication?xsd=1" uri="src/conf/xml-resources/web-services/ServCommunication/wsdl/localhost_8080/plscience-ws/ServCommunication.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/plscience-ws/ServAnnotation?wsdl" uri="src/conf/xml-resources/web-services/ServAnnotation/wsdl/localhost_8080/plscience-ws/ServAnnotation.wsdl"/>
+    <system systemId="http://localhost:8080/plscience-ws/ServAnnotation?xsd=1" uri="src/conf/xml-resources/web-services/ServAnnotation/wsdl/localhost_8080/plscience-ws/ServAnnotation.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/plscience-ws/ServOntologyGenericSparql?wsdl" uri="src/conf/xml-resources/web-services/ServOntologyGenericSparql/wsdl/localhost_8080/plscience-ws/ServOntologyGenericSparql.wsdl"/>
+    <system systemId="http://localhost:8080/plscience-ws/ServOntologyGenericSparql?xsd=1" uri="src/conf/xml-resources/web-services/ServOntologyGenericSparql/wsdl/localhost_8080/plscience-ws/ServOntologyGenericSparql.xsd_1.xsd"/>
 </catalog>
