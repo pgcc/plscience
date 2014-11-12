@@ -1,0 +1,9 @@
+# Site settings
+title: Collaborative PL-Science
+description: Collaborative PL-Science is a tool to assist researchers to perform experiments and build scientific workflows
+email: vitor.freitas@ice.ufjf.br
+url: "http://pgcc.github.io" # the base hostname & protocol for your site
+github_username:  pgcc
+
+# Build settings
+markdown: redcarpet
