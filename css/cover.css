@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Anton);
+
+#signin {
+  margin-top: 10px;
+}
+
+.cover {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #1e8ecf;
+  background-image: -webkit--webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit--webkit-linear-gradient(342deg,#26d0ce,#1a2980 90%);
+  background-image: -webkit--moz-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit--moz-linear-gradient(342deg,#26d0ce,#1a2980 90%);
+  background-image: -webkit--o-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit--o-linear-gradient(342deg,#26d0ce,#1a2980 90%);
+  background-image: -webkit--ms-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit--ms-linear-gradient(342deg,#26d0ce,#1a2980 90%);
+  background-image: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit-linear-gradient(108deg,#26d0ce,#1a2980 90%);
+  background-image: -moz--webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-moz--webkit-linear-gradient(342deg,#26d0ce,#1a2980 90%);
+  background-image: -moz--moz-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-moz--moz-linear-gradient(342deg,#26d0ce,#1a2980 90%);
+  background-image: -moz--o-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-moz--o-linear-gradient(342deg,#26d0ce,#1a2980 90%);
+  background-image: -moz--ms-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-moz--ms-linear-gradient(342deg,#26d0ce,#1a2980 90%);
+  background-image: -moz-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-moz-linear-gradient(108deg,#26d0ce,#1a2980 90%);
+  background-image: -ms--webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-ms--webkit-linear-gradient(342deg,#26d0ce,#1a2980 90%);
+  background-image: -ms--moz-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-ms--moz-linear-gradient(342deg,#26d0ce,#1a2980 90%);
+  background-image: -ms--o-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-ms--o-linear-gradient(342deg,#26d0ce,#1a2980 90%);
+  background-image: -ms--ms-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-ms--ms-linear-gradient(342deg,#26d0ce,#1a2980 90%);
+  background-image: -ms-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-ms-linear-gradient(108deg,#26d0ce,#1a2980 90%);
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+}
+
+.cover h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.cover h3 {
+  margin: 0 0 10px 0;
+  color: #fff;
+}
+
+.cover p {
+  font-size: 18px;
+  color: #eee;
+}
+
+.cover .pure-g {
+  padding: 120px 0 165px;
+}
+
+.features {
+  background-color: #eee;
+  height: 400px;
+}
