@@ -1,0 +1,61 @@
+.main h1 {
+  color: #2082A9;
+  border-bottom: 1px solid #ddd;
+  padding: 30px 0 15px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.main h2 {
+  text-transform: uppercase;
+  color: #555;
+}
+
+ul.researchers {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+ul.researchers li {
+  list-style: none;
+  height: 80px;
+  margin: 15px 0;
+}
+
+ul.researchers li .portrait {
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+ul.researchers li .portrait img {
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+ul.researchers li .contact-card {
+  margin-left: 100px;
+}
+
+ul.researchers li .contact-card h3 {
+  margin: 0 0 5px 0;
+  padding-top: 20px;
+}
+
+ul.researchers li .contact-card h3 small {
+  color: #999;
+  font-weight: 400;
+  font-size: 70%;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.wrapper .researchers:last-child {
+  border-bottom: none;
+}
