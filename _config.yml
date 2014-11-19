@@ -4,6 +4,8 @@ description: Collaborative PL-Science is a tool to assist researchers to perform
 email: vitor.freitas@ice.ufjf.br
 url: "http://pgcc.github.io" # the base hostname & protocol for your site
 github_username:  pgcc
+baseurl: "/plscience/"
+url: "http://pgcc.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: redcarpet
