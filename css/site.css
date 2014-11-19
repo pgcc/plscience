@@ -1,3 +1,7 @@
+.main {
+  margin-bottom: 20px;
+}
+
 .main h1 {
   color: #2082A9;
   border-bottom: 1px solid #ddd;
@@ -65,4 +69,37 @@ ul.researchers li .contact-card h3 small {
 
 .wrapper .researchers:last-child {
   border-bottom: none;
+}
+
+.left-menu {
+  padding-top: 50px;
+}
+
+.left-menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 15px 0;
+}
+
+.left-menu a:hover {
+  color: #000;
+}
+
+.left-menu ul {
+  padding-right: 50px;
+}
+
+.left-menu ul li {
+  margin: 0;
+  border-bottom: 2px solid #fff;
+}
+
+section {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+#overview {
+  padding-top: 0;
 }

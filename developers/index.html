@@ -1,0 +1,160 @@
+---
+layout: page
+---
+
+<div class="wrapper">
+  <div class="pure-g">
+    <div class="pure-u-1-3 left-menu">
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#schema">Schema</a></li>
+        <li><a href="#parameters">Parameters</a></li>
+        <li><a href="#client-errors">Client Errors</a></li>
+        <li><a href="#oauth">OAuth</a></li>
+        <li><a href="#methods">URI Methods</a></li>
+        <li><a href="#endpoints">Endpoints and Resources</a></li>
+      </ul>
+    </div>
+    <div class="pure-u-2-3">
+      <h1>Developers</h1>
+
+      <section id="overview">
+        <h2>Overview</h2>
+        <p>Use our REST API, based on open standards, to build third party applications which can use any web development language to access the API.</p>
+        <p>Using the API, users can sign in and grant your application the right to make calls on their behalf. Then, through the API, your application can access Collaborative PL-Science resources such as experiments, workflows, webservices, researchers data.</p>
+        <p>You should be familiar with REST architecture before writing an integration. Good REST resources abound on the internet. Read this overview page to gain a good understanding of Collaborative PL-Science's REST implementation.</p>
+      </section>
+
+      <section id="schema">
+        <h2>Schema</h2>
+        <p>All API access is over HTTPS, and accessed from the <strike>api.plscience.com</strike> domain. All data is sent and received as JSON.</p>
+<code><pre>$ curl -i https://api.plscience.com/experiments
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri,  Nov 2014 20:59:14 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+Status: 200 OK
+ETag: "a00049ba79152d03380c34652f2cb612"
+Content-Length: 5
+Cache-Control: max-age=0, private, must-revalidate
+X-Content-Type-Options: nosniff
+
+[]</pre></code>
+      </section>
+
+      <section id="parameters">
+        <h2>Parameters</h2>
+        <p>Many API methods take optional parameters. For GET requests, any parameters not specified as a segment in the path can be passed as an HTTP query string parameter:</p>
+<code><pre>$ curl -i "https://api.github.com/experiment/12/webservices?domain=rna"</pre></code>
+        <p>In this example, the ‘12’ value is provided for the :experiment parameter in the path while :domain is passed in the query string.</p>
+        <p>For POST, PATCH, PUT, and DELETE requests, parameters not included in the URL should be encoded as JSON with a Content-Type of ‘application/json’:</p>
+<code><pre>$ curl -i -u username -d '{"contexts":["biology"]}' https://api.github.com/workflows</pre></code>
+      </section>
+
+      <section id="client-errors">
+        <h2>Client Errors</h2>
+        <p>There are three possible types of client errors on API calls that receive request bodies:</p>
+        <p>Sending invalid JSON will result in a 400 Bad Request response.</p>
+<code><pre>HTTP/1.1 400 Bad Request
+Content-Length: 35
+
+{"message":"Problems parsing JSON"}</pre></code>
+
+        <p>Sending invalid fields will result in a 422 Unprocessable Entity response.</p>
+<code><pre>HTTP/1.1 422 Unprocessable Entity
+Content-Length: 149
+
+{
+ "message": "Validation Failed",
+ "errors": [
+   {
+     "resource": "Experiment",
+     "field": "id",
+     "code": "missing_field"
+   }
+ ]
+}</pre></code>
+
+        <p>Trying to access data without permissions in a 403 Permission denied.</p>
+<code><pre>HTTP/1.1 403 Permission denied
+Content-Length: 31
+
+{"message":"Permission denied"}</pre></code>
+      </section>
+      
+      <!--
+      <section id="oauth">
+        <h2>OAuth</h2>
+      </section>
+      -->
+
+      <section id="methods">
+        <h2>URI Methods</h2>
+        <p>A given endpoint or resource has a series of actions (or methods) associated with it. The Collaborative PL-Science service supports these standard HTTP methods:</p>
+        <table class="pure-table pure-table-bordered">
+          <thead>
+            <tr>
+              <th>Call</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>GET</td>
+              <td>Retrieves information.</td>
+            </tr>
+            <tr>
+              <td>PUT</td>
+              <td>Updates existing information.</td>
+            </tr>
+            <tr>
+              <td>POST</td>
+              <td>Creates new information.</td>
+            </tr>
+            <tr>
+              <td>DELETE</td>
+              <td>Removes existing information.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="endpoints" style="border-bottom: none">
+        <h2>Endpoints and Resources</h2>
+        <p>Collaborative PL-Science supports several endpoints. These endpoints may or may not have additional resources. The table below lists the endpoints and their associated resources.</p>
+        <table class="pure-table pure-table-bordered">
+          <thead>
+            <tr>
+              <th>Endpoint</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>user</code></td>
+              <td>Manages the currently authenticated account profile.</td>
+            </tr>
+            <tr>
+              <td><code>experiments</code></td>
+              <td>Manages experiments artifacts.</td>
+            </tr>
+            <tr>
+              <td><code>webservices</code></td>
+              <td>Manage web services</td>
+            </tr>
+            <tr>
+              <td><code>artifacts</code></td>
+              <td>Manages the product line core artifact</td>
+            </tr>
+            <tr>
+              <td><code>ontologies</code></td>
+              <td>Manages ontologies</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </div>
+</div>
