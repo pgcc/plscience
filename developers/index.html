@@ -47,10 +47,10 @@ X-Content-Type-Options: nosniff
       <section id="parameters">
         <h2>Parameters</h2>
         <p>Many API methods take optional parameters. For GET requests, any parameters not specified as a segment in the path can be passed as an HTTP query string parameter:</p>
-<code><pre>$ curl -i "https://api.github.com/experiment/12/webservices?domain=rna"</pre></code>
+<code><pre>$ curl -i "https://api.plscience.com/experiment/12/webservices?domain=rna"</pre></code>
         <p>In this example, the ‘12’ value is provided for the :experiment parameter in the path while :domain is passed in the query string.</p>
         <p>For POST, PATCH, PUT, and DELETE requests, parameters not included in the URL should be encoded as JSON with a Content-Type of ‘application/json’:</p>
-<code><pre>$ curl -i -u username -d '{"contexts":["biology"]}' https://api.github.com/workflows</pre></code>
+<code><pre>$ curl -i -u username -d '{"contexts":["biology"]}' https://api.plscience.com/workflows</pre></code>
       </section>
 
       <section id="client-errors">
