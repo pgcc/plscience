@@ -99,3 +99,15 @@
   background-color: #eee;
   height: 400px;
 }
+
+.features h2 {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.features section {
+  padding: 50px 0;
+  border-bottom: 1px solid #ddd;
+}
