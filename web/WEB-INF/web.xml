@@ -20,9 +20,27 @@
         <param-name>javax.faces.VALIDATE_EMPTY_FIELDS</param-name>
         <param-value>true</param-value>
     </context-param>
+    <listener>
+        <listener-class>com.sun.xml.ws.transport.http.servlet.WSServletContextListener</listener-class>
+    </listener>
     <servlet>
         <servlet-name>Faces Servlet</servlet-name>
         <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>ServAnnotation</servlet-name>
+        <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>ServCommunication</servlet-name>
+        <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>ServOntologyGenericSparql</servlet-name>
+        <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
@@ -37,6 +55,18 @@
         <filter-name>FiltroTempoDeExecucao</filter-name>
         <filter-class>br.com.ufjf.filters.FiltroTempoDeExecucao</filter-class>
     </filter>
+    <servlet-mapping>
+        <servlet-name>ServAnnotation</servlet-name>
+        <url-pattern>/ServAnnotation</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServCommunication</servlet-name>
+        <url-pattern>/ServCommunication</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServOntologyGenericSparql</servlet-name>
+        <url-pattern>/ServOntologyGenericSparql</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>30</session-timeout>
     </session-config>

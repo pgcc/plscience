@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.ufjf.webservice;
+package br.com.ufjf.webservices;
 
 import javax.jws.WebService;
 
@@ -11,15 +11,15 @@ import javax.jws.WebService;
  *
  * @author vitorfs
  */
-@WebService(serviceName = "ServAnnotation", portName = "ServAnnotationPort", endpointInterface = "br.com.ufjf.webservice.servannotation.ServAnnotation", targetNamespace = "http://servannotation.webservice.ufjf.com.br/", wsdlLocation = "WEB-INF/wsdl/ServAnnotation/localhost_8080/plscience-ws/ServAnnotation.wsdl")
+@WebService(serviceName = "ServAnnotation", portName = "ServAnnotationPort", endpointInterface = "br.com.ufjf.webservice.servannotation.ServAnnotation", targetNamespace = "http://servannotation.webservice.ufjf.com.br/", wsdlLocation = "WEB-INF/wsdl/ServAnnotation/192.241.177.47_8080/plscience-ws/ServAnnotation.wsdl")
 public class ServAnnotation {
 
-    public java.lang.String hello(java.lang.String name) {
+    public java.lang.String fullNotesXML(java.lang.String description, int idRationale) {
         //TODO implement this method
         throw new UnsupportedOperationException("Not implemented yet.");
     }
 
-    public java.lang.String fullNotesXML(java.lang.String description, int idRationale) {
+    public java.lang.String hello(java.lang.String name) {
         //TODO implement this method
         throw new UnsupportedOperationException("Not implemented yet.");
     }
