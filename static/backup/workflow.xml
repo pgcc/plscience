@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Workflow>
+    <Processes>
+        <Process name="CAP3_Sequence_Assembly_Program" id="Process_1">
+            <Parameters>
+                <Parameter name="type" value="Application"/>
+                <Parameter name="hasLocation" value="http://pbil.univ-lyon1.fr/cap3.php"/>
+            </Parameters>
+        </Process>
+        <Process name="runPhredCollectionService" id="Process_2">
+            <Parameters>
+                <Parameter name="type" value=""/>
+                <Parameter name="hasLocation" value="http://www.biocatalogue.org/services/1575"/>
+            </Parameters>
+        </Process>
+    </Processes>
+    <Connections/>
+</Workflow>

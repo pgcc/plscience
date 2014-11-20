@@ -1,0 +1,2820 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SPARQLReturn1>
+    <Retornos>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isParticipantOf&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b0 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isParticipantOf&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b1 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isParticipantOf&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isParticipantOf&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Cientista \"é participante de\" Interação" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isParticipantOf&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LU_http://plscience.superdignus.com/SequenceAligningFeatureModel.xml&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#stores&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_01SequenceAligningFeatureModel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LU_http://plscience.superdignus.com/SequenceAligningFeatureModel.xml&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LocalURL&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LU_http://plscience.superdignus.com/SequenceAligningFeatureModel.xml&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Other&gt; )</subject>
+            <predicate>( ?predicate = owl:disjointWith ) </predicate>
+            <objectZX>( ?object = _:b2 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Other&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Artifact&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Other&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b4 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b3 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b4 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#enables&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b5 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b5 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#develops&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#involves&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = _:b6 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#involves&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Message&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#involves&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:TransitiveProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#involves&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b8 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b7 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b8 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Message&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b10 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b9 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b10 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#IsolatedApplication&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b12 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b11 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b12 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#FeatureModel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b14 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b13 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b14 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Ontology&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#scientistHasEmail&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#scientistHasEmail&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Scientist&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#scientistHasEmail&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:FunctionalProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#scientistHasEmail&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:DatatypeProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Raphael&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#scientistHasEmail&gt; ) </predicate>
+            <objectZX>( ?object = "raphaelnunes91@gmail.com"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Raphael&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ScientistHasName&gt; ) </predicate>
+            <objectZX>( ?object = "Raphael Nunes"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Raphael&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Scientist&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Raphael&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message06&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Magnus&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message06&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAdressee&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Anrafel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message06&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Message&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message06&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasRelation&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b15 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasRelation&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasRelation&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Cientistas tem relação com o Artefato" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasRelation&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#develops&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b16 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#develops&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#develops&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Arbex&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ScientistHasName&gt; ) </predicate>
+            <objectZX>( ?object = "wagnerarbex@gmail.com"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Arbex&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ScientistHasName&gt; ) </predicate>
+            <objectZX>( ?object = "Wagner Arbex"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Arbex&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Scientist&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Arbex&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Kele&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isRequired&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product02&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Kele&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#scientistHasEmail&gt; ) </predicate>
+            <objectZX>( ?object = "kele@gmail.com"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Kele&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ScientistHasName&gt; ) </predicate>
+            <objectZX>( ?object = "Kele"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Kele&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Developer&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Kele&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Note&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#CO_FioCruz&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasMembers&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Kele&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#CO_FioCruz&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ResearchCenter&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#CO_FioCruz&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#productHasName&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#productHasName&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Product&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#productHasName&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:FunctionalProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#productHasName&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:DatatypeProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b18 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b17 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b18 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isParticipantOf&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Interaction&gt; )</subject>
+            <predicate>( ?predicate = owl:equivalentClass ) </predicate>
+            <objectZX>( ?object = _:b19 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Interaction&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b20 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b20 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isGeneratedBy&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b21 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b21 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#IncludeArtifact&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#requires&gt; )</subject>
+            <predicate>( ?predicate = owl:inverseOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isRequired&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#requires&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Scientist&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#requires&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Activity&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#requires&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:InverseFunctionalProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#requires&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b23 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b22 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b23 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Ontology&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isRequired&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Scientist&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isRequired&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Activity&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isRequired&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Requereu" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isRequired&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:FunctionalProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isRequired&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#manipulates&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b24 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#manipulates&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#manipulates&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Cientista manipula Artefato" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#manipulates&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#resultsIn&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b25 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#resultsIn&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#resultsIn&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "A realização de uma atividade \"Resulta em\" Histórico de Atividades" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#resultsIn&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#writes&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#PR_MultipleAlignment&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#productHasPurpose&gt; ) </predicate>
+            <objectZX>( ?object = "Realizar o Alinhamento Múltiplo de Sequências de DNA"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#PR_MultipleAlignment&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#productHasName&gt; ) </predicate>
+            <objectZX>( ?object = "Multiple Alignment"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#PR_MultipleAlignment&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#IsolatedApplication&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#PR_MultipleAlignment&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b27 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b26 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b27 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isGeneratedBy&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#University&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Community&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#University&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b28 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b28 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isMemberOf&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Developer&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Scientist&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Developer&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b30 )</subject>
+            <predicate>( ?predicate = owl:unionOf ) </predicate>
+            <objectZX>( ?object = _:b29 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b30 )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isAssociatedWith&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b31 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isAssociatedWith&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isAssociatedWith&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Produto está associado à uma Comunidade de Cientistas" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isAssociatedWith&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#PR_Pipeline_PhredPhrap&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#productHasPurpose&gt; ) </predicate>
+            <objectZX>( ?object = "Realizar o Agrupamento de Sequências de DNA"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#PR_Pipeline_PhredPhrap&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#productHasName&gt; ) </predicate>
+            <objectZX>( ?object = "Pipeline PhredPhrap"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#PR_Pipeline_PhredPhrap&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Workflow&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#PR_Pipeline_PhredPhrap&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Jonathan&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAdressee&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Anrafel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message01&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Message&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message01&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Community&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isGeneratedBy&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "é gerada por" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isGeneratedBy&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#interactingWith&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Interagem com" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#interactingWith&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b33 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b32 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b33 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b35 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b34 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b35 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isGeneratedFrom&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAsParticipant&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b33 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAsParticipant&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b36 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAsParticipant&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAsParticipant&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Interação \"possui como participante\" Cientista" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAsParticipant&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Edit_Artifact01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#uses&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_04AeroSpaceFeatureModel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Edit_Artifact01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDescription&gt; ) </predicate>
+            <objectZX>( ?object = "Edit Artifact"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Edit_Artifact01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDateTime&gt; ) </predicate>
+            <objectZX>( ?object = "04/10/13 - 08:55"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Edit_Artifact01&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#EditArtifact&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Edit_Artifact01&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b19 )</subject>
+            <predicate>( ?predicate = owl:someValuesFrom ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Message&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b19 )</subject>
+            <predicate>( ?predicate = owl:onProperty ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b19 )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Restriction ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#N_Note03&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Anrafel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#N_Note03&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isAbout&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_04AeroSpaceFeatureModel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#N_Note03&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Note&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#N_Note03&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#NoteHasText&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:DatatypeProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = _:b37 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; )</subject>
+            <predicate>( ?predicate = owl:inverseOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#writes&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Issuing&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:TransitiveProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isComposedBy&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b38 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isComposedBy&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isComposedBy&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Produto é composto por Artefato" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isComposedBy&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b39 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b39 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#requires&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b41 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b40 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b41 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#describes&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b42 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b42 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#IncludeArtifact&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b43 )</subject>
+            <predicate>( ?predicate = owl:someValuesFrom ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Interaction&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b43 )</subject>
+            <predicate>( ?predicate = owl:onProperty ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#enables&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b43 )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Restriction ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#enables&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Interaction&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#enables&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Activity&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#enables&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Possibilita" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#enables&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:TransitiveProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#enables&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_02&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message05&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_02&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isMadePossibleBy&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product02&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_02&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Interaction&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_02&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#stores&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = _:b30 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#stores&gt; )</subject>
+            <predicate>( ?predicate = owl:inverseOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isStored&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#stores&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LocalURL&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#stores&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Local URL armazena o endereço de um Artefato (Núcleo onde ele está disponível)" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#stores&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:TransitiveProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#stores&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LU_http://plscience.superdignus.com/AeroSpaceOntology.owl&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#stores&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_04AeroSpaceFeatureModel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LU_http://plscience.superdignus.com/AeroSpaceOntology.owl&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b6 )</subject>
+            <predicate>( ?predicate = owl:unionOf ) </predicate>
+            <objectZX>( ?object = _:b44 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b6 )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b45 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b45 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isAbout&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b47 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b46 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b47 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#enables&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b48 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b48 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#uses&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b49 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b49 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Other&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b51 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b50 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b51 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#MappingFile&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message04&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Raphael&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message04&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAdressee&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Magnus&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message04&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Message&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message04&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isReceptorOf&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Artifact&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b52 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b52 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isGeneratedBy&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#describes&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Product&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#describes&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHistory&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#describes&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:TransitiveProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#describes&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b53 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b53 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#construct&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b1 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b20 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b1 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isReceptorOf&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ScientistHasName&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ScientistHasName&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Scientist&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ScientistHasName&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:DatatypeProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#FeatureModel&gt; )</subject>
+            <predicate>( ?predicate = owl:disjointWith ) </predicate>
+            <objectZX>( ?object = _:b54 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#FeatureModel&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Artifact&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#FeatureModel&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b56 )</subject>
+            <predicate>( ?predicate = owl:intersectionOf ) </predicate>
+            <objectZX>( ?object = _:b55 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b56 )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isPartOf&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b57 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isPartOf&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isPartOf&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Artefato é parte de um Produto" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isPartOf&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ComposeProduct&gt; )</subject>
+            <predicate>( ?predicate = owl:disjointWith ) </predicate>
+            <objectZX>( ?object = _:b58 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ComposeProduct&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Activity&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ComposeProduct&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b59 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b59 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#uses&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Product&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b61 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b60 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b61 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#MappingFile&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasMembers&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Scientist&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasMembers&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Community&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasMembers&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Possui membro" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasMembers&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:TransitiveProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasMembers&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isStepOf&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b35 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isStepOf&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isStepOf&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#IncludeArtifact&gt; )</subject>
+            <predicate>( ?predicate = owl:disjointWith ) </predicate>
+            <objectZX>( ?object = _:b56 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#IncludeArtifact&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Activity&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#IncludeArtifact&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl&gt; )</subject>
+            <predicate>( ?predicate = owl:versionIRI ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Esta ontologia descreve o conhecimento envolvido na abordagem Collaborative PL-Science. O objetivo é possibilitar que novos conhecimentos possam ser descobertos a partir de consultas realizadas na base de dados. Visa permitir também a utilização de um vocabulário comum entre os cientistas e / ou pesquisadores neste domínio." ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl&gt; )</subject>
+            <predicate>( ?predicate = rdfs:isDefinedBy ) </predicate>
+            <objectZX>( ?object = "PL-Science Group" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Ontology ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isStored&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHistoryHasDescription&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHistoryHasDescription&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHistory&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHistoryHasDescription&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:FunctionalProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHistoryHasDescription&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:DatatypeProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#IsolatedApplication&gt; )</subject>
+            <predicate>( ?predicate = owl:disjointWith ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Workflow&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#IsolatedApplication&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#TypeofProduct&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#IsolatedApplication&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b62 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b5 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b62 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasMembers&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b37 )</subject>
+            <predicate>( ?predicate = owl:intersectionOf ) </predicate>
+            <objectZX>( ?object = _:b8 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b37 )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasInterationOf&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Tem interação de" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasInterationOf&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b63 )</subject>
+            <predicate>( ?predicate = owl:intersectionOf ) </predicate>
+            <objectZX>( ?object = _:b10 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b63 )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isUsed&gt; )</subject>
+            <predicate>( ?predicate = owl:inverseOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#uses&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isUsed&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b64 )</subject>
+            <predicate>( ?predicate = owl:intersectionOf ) </predicate>
+            <objectZX>( ?object = _:b12 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b64 )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b65 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b14 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b65 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#FeatureModel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#N_Note01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Jonathan&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#N_Note01&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Note&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#N_Note01&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LU_http://plscience.superdignus.com/SequenceAligningOntology.owl&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#stores&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_03SequenceAligningOntology&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LU_http://plscience.superdignus.com/SequenceAligningOntology.owl&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LocalURL&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LU_http://plscience.superdignus.com/SequenceAligningOntology.owl&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Scientist&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b66 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b66 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#construct&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b67 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b39 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b67 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isUsed&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b68 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b21 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b68 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ComposeProduct&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isManipulated&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b67 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isManipulated&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isManipulated&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Artefato é manipulado por Cientista" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isManipulated&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b69 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b23 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b69 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#MappingFile&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Activity&gt; )</subject>
+            <predicate>( ?predicate = owl:equivalentClass ) </predicate>
+            <objectZX>( ?object = _:b43 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Activity&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isMadePossibleBy&gt; )</subject>
+            <predicate>( ?predicate = owl:inverseOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#enables&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isMadePossibleBy&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "é possibilitada por" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isMadePossibleBy&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Receptor&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Scientist&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Receptor&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isGeneratedFrom&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b41 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isGeneratedFrom&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isGeneratedFrom&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "É gerado por" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isGeneratedFrom&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Include_Artifact01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#uses&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_04AeroSpaceFeatureModel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Include_Artifact01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDescription&gt; ) </predicate>
+            <objectZX>( ?object = "Include Artifact"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Include_Artifact01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDateTime&gt; ) </predicate>
+            <objectZX>( ?object = "03/10/13 - 09:45"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Include_Artifact01&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#IncludeArtifact&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Include_Artifact01&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b70 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b70 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Receptor&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b31 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b28 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b31 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isDevelopedBy&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b24 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b48 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b24 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isRequired&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Message&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Interaction&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Message&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b71 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b71 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasActivityHistory&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b72 )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "This ontology describes the knowledge involved in the organization and access to artifacts from the core asset of SPL, ie, how artifacts are organized and structured, allowing it to be developed and shared a common vocabulary among scientists and / or researchers in this domain." ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message02&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAdressee&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Jonathan&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message02&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Anrafel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message02&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Message&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message02&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isDevelopedBy&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b73 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isDevelopedBy&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isDevelopedBy&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Produto é desenvolvido por Cientista" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isDevelopedBy&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; )</subject>
+            <predicate>( ?predicate = owl:inverseOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isGeneratedBy&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Message&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Interaction&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "gera" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:TransitiveProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b74 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b74 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAdressee&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isResponsibleFor&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b75 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isResponsibleFor&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isResponsibleFor&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b76 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b76 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#resultsIn&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b77 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b77 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#EditArtifact&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Issuing&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Scientist&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Issuing&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#construct&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#PR_Pipeline_PhredPhrap&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDescription&gt; ) </predicate>
+            <objectZX>( ?object = "Develop a Product"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDateTime&gt; ) </predicate>
+            <objectZX>( ?object = "02/10/13 - 14:31"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product01&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ComposeProduct&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product01&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#MappingFile&gt; )</subject>
+            <predicate>( ?predicate = owl:disjointWith ) </predicate>
+            <objectZX>( ?object = _:b78 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#MappingFile&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Artifact&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#MappingFile&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b79 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b79 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#requires&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b80 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b42 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b80 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#EditArtifact&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b81 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b81 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Other&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Workflow&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#TypeofProduct&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Workflow&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_03&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message04&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_03&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message03&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_03&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isMadePossibleBy&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Edit_Artifact01&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_03&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Interaction&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_03&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b3 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b3 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b15 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b45 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b15 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#writes&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b7 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b7 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Note&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isTypeOf&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = _:b63 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isTypeOf&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Product&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isTypeOf&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:FunctionalProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isTypeOf&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b9 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b9 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Workflow&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b11 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b49 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b11 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#MappingFile&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b82 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b51 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b82 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#FeatureModel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message05&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Kele&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message05&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAdressee&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Arbex&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message05&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Message&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message05&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHistory01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#describes&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#PR_Pipeline_PhredPhrap&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHistory01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHistoryHasDescription&gt; ) </predicate>
+            <objectZX>( ?object = "SequenceAligning/application_type/workflow/sequence_plattform/NGS..."^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHistory01&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHistory&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHistory01&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasSome&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b4 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasSome&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasSome&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#EditArtifact&gt; )</subject>
+            <predicate>( ?predicate = owl:disjointWith ) </predicate>
+            <objectZX>( ?object = _:b83 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#EditArtifact&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Activity&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#EditArtifact&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b16 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b53 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b16 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isRequired&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b17 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b17 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isMadePossibleBy&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b0 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b52 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b0 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#writes&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#productHasPurpose&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#productHasPurpose&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Product&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#productHasPurpose&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:FunctionalProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#productHasPurpose&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:DatatypeProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b54 )</subject>
+            <predicate>( ?predicate = owl:intersectionOf ) </predicate>
+            <objectZX>( ?object = _:b69 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b54 )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b22 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b22 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Other&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LocalURL&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#construct&gt; )</subject>
+            <predicate>( ?predicate = owl:inverseOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#wasConstructed&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#construct&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Product&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#construct&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Activity&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#construct&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:FunctionalProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#construct&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHistory&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Product&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHistory&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b38 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b59 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b38 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#wasConstructed&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#TypeofProduct&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Product&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#TypeofProduct&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b29 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b61 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b29 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#FeatureModel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#uses&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Artifact&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#uses&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Activity&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#uses&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:TransitiveProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#uses&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDescription&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDescription&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Activity&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDescription&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:FunctionalProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDescription&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:DatatypeProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#wasConstructed&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Product&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#wasConstructed&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Activity&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#wasConstructed&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:InverseFunctionalProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#wasConstructed&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#listOfParticipants&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b47 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#listOfParticipants&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#listOfParticipants&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b32 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b32 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b34 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b34 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#requires&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b13 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b13 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Other&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b78 )</subject>
+            <predicate>( ?predicate = owl:intersectionOf ) </predicate>
+            <objectZX>( ?object = _:b65 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b78 )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isinvolved&gt; )</subject>
+            <predicate>( ?predicate = owl:inverseOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#involves&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isinvolved&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#N_Note02&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Arbex&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#N_Note02&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Note&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#N_Note02&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LU_http://plscience.superdignus.com/SequenceAligningMapping.xml&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#stores&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_02SequenceAligningMapping&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LU_http://plscience.superdignus.com/SequenceAligningMapping.xml&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LocalURL&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#LU_http://plscience.superdignus.com/SequenceAligningMapping.xml&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b57 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b66 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b57 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isUsed&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b40 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b40 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#wasConstructed&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b83 )</subject>
+            <predicate>( ?predicate = owl:intersectionOf ) </predicate>
+            <objectZX>( ?object = _:b68 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b83 )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b58 )</subject>
+            <predicate>( ?predicate = owl:intersectionOf ) </predicate>
+            <objectZX>( ?object = _:b80 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b58 )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#MessageHasText&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#MessageHasText&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Message&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#MessageHasText&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:FunctionalProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#MessageHasText&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:DatatypeProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_03SequenceAligningOntology&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isUsed&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product02&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_03SequenceAligningOntology&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isUsed&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product01&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_03SequenceAligningOntology&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Ontology&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_03SequenceAligningOntology&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message06&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message02&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message01&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_01&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isMadePossibleBy&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product01&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_01&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Interaction&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#INTERACTION_01&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDateTime&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDateTime&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Activity&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDateTime&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:FunctionalProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDateTime&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:DatatypeProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isMemberOf&gt; )</subject>
+            <predicate>( ?predicate = owl:inverseOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasMembers&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isMemberOf&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "É membro de" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isMemberOf&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b44 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b70 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b44 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Issuing&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ResearchCenter&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Community&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ResearchCenter&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b26 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b26 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isMadePossibleBy&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b46 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b46 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAsParticipant&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b2 )</subject>
+            <predicate>( ?predicate = owl:intersectionOf ) </predicate>
+            <objectZX>( ?object = _:b82 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b2 )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b25 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b71 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b25 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#construct&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isAbout&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b27 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isAbout&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isAbout&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Ontology&gt; )</subject>
+            <predicate>( ?predicate = owl:disjointWith ) </predicate>
+            <objectZX>( ?object = _:b64 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Ontology&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subClassOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Artifact&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Ontology&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:Class ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b50 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = rdf:nil ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b50 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Ontology&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message03&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAdressee&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Raphael&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message03&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isWrittenBy&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Magnus&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message03&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Message&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#M_Message03&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasActivityHistory&gt; )</subject>
+            <predicate>( ?predicate = owl:inverseOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#describes&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasActivityHistory&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasProduct&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b62 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasProduct&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasProduct&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Comunidade de Cientistas tem produtos associados à ela." ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasProduct&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b36 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b74 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b36 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#generates&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b75 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b76 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b75 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isRequired&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b55 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b77 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b55 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ComposeProduct&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAdressee&gt; )</subject>
+            <predicate>( ?predicate = owl:inverseOf ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isReceptorOf&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAdressee&gt; )</subject>
+            <predicate>( ?predicate = rdfs:range ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Receptor&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAdressee&gt; )</subject>
+            <predicate>( ?predicate = rdfs:domain ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Message&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAdressee&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:TransitiveProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasAdressee&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#CO_Embrapa&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasMembers&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Arbex&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#CO_Embrapa&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ResearchCenter&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#CO_Embrapa&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Jonathan&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isRequired&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Edit_Artifact01&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Jonathan&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#scientistHasEmail&gt; ) </predicate>
+            <objectZX>( ?object = "jsmuniz07@yahoo.com.br"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Jonathan&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ScientistHasName&gt; ) </predicate>
+            <objectZX>( ?object = "Jonathan Muniz"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Jonathan&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Developer&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Jonathan&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_04AeroSpaceFeatureModel&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#FeatureModel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_04AeroSpaceFeatureModel&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Magnus&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isRequired&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Include_Artifact01&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Magnus&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#scientistHasEmail&gt; ) </predicate>
+            <objectZX>( ?object = "dignus07@gmail.com"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Magnus&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ScientistHasName&gt; ) </predicate>
+            <objectZX>( ?object = "Magnus Teixeira"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Magnus&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Developer&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Magnus&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Anrafel&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isRequired&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product01&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Anrafel&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#scientistHasEmail&gt; ) </predicate>
+            <objectZX>( ?object = "anrafel@live.com"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Anrafel&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ScientistHasName&gt; ) </predicate>
+            <objectZX>( ?object = "Anrafel Fernandes Pereira"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Anrafel&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Developer&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Anrafel&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#CO_UFJF&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasMembers&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Raphael&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#CO_UFJF&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasMembers&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Magnus&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#CO_UFJF&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasMembers&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Jonathan&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#CO_UFJF&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#hasMembers&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#SC_Anrafel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#CO_UFJF&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#University&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#CO_UFJF&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_02SequenceAligningMapping&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isUsed&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product02&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_02SequenceAligningMapping&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isUsed&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product01&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_02SequenceAligningMapping&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#MappingFile&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_02SequenceAligningMapping&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isPartOfList&gt; )</subject>
+            <predicate>( ?predicate = owl:propertyChainAxiom ) </predicate>
+            <objectZX>( ?object = _:b18 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isPartOfList&gt; )</subject>
+            <predicate>( ?predicate = rdfs:subPropertyOf ) </predicate>
+            <objectZX>( ?object = owl:topObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isPartOfList&gt; )</subject>
+            <predicate>( ?predicate = rdfs:comment ) </predicate>
+            <objectZX>( ?object = "Cientista \"é parte da Lista de\" Interações" ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isPartOfList&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:ObjectProperty ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product02&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#construct&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#PR_MultipleAlignment&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product02&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDescription&gt; ) </predicate>
+            <objectZX>( ?object = "Develop a Product"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product02&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ActivityHasDateTime&gt; ) </predicate>
+            <objectZX>( ?object = "09/10/13 - 12:45"^^xsd:string ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product02&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#ComposeProduct&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product02&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b73 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b79 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b73 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#wasConstructed&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b60 )</subject>
+            <predicate>( ?predicate = rdf:rest ) </predicate>
+            <objectZX>( ?object = _:b81 ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = _:b60 )</subject>
+            <predicate>( ?predicate = rdf:first ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#Ontology&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_01SequenceAligningFeatureModel&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isUsed&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product02&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_01SequenceAligningFeatureModel&gt; )</subject>
+            <predicate>( ?predicate = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#isUsed&gt; ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AC_Develop_a_Product01&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_01SequenceAligningFeatureModel&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#FeatureModel&gt; ) </objectZX>
+        </Retorno>
+        <Retorno>
+            <subject>( ?subject = &lt;http://plscience.superdignus.com/CollaborativePLScienceOntology.owl#AR_01SequenceAligningFeatureModel&gt; )</subject>
+            <predicate>( ?predicate = rdf:type ) </predicate>
+            <objectZX>( ?object = owl:NamedIndividual ) </objectZX>
+        </Retorno>
+    </Retornos>
+</SPARQLReturn1>

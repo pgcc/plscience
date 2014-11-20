@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<communication>
+    <data>15/02/2014</data>
+    <hora>11:48:25</hora>
+    <idRationale>108</idRationale>
+    <idScientistEmissor>1</idScientistEmissor>
+    <idScientistReceptor>7</idScientistReceptor>
+    <lidaSn>1</lidaSn>
+    <message> Oi tia leu meu Zemeio</message>
+</communication>
